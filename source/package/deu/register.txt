@@ -1,0 +1,102 @@
+
+
+
+    CD Spieler Bestellformular                                      
+    ==========================
+
+
+
+    +---------------------------------------------+
+    !                                             !
+    !                                             !
+    !                                             !
+    !                                             !
+    !         Michael Bock                        !
+    !         Weichselstr. 13                     !
+    !                                             !
+    !         12045 Berlin                        !
+    !                                             !
+    !                                             !
+    !                                             !
+    +---------------------------------------------+
+
+    Absender:     Name/Firma:  _______________________________________
+    =========
+                  Strasse:     _______________________________________
+
+                  PLZ/Ort:     _______________________________________
+
+                  Telefon:     _______________  Fax:  ________________
+
+                  Email:       _______________________________________
+
+                  Compuserve:  _______________________________________
+
+                  Fidonet:     _______________________________________
+
+    Anzahl                                                          Betrag
+
+    ____ CD Spieler fÅr OS/2 Registrierung
+         Deutschland: DM 30,-  Europa: DM 35,-  Welt: DM 50,-   = DM _____,-
+
+    ____ Versand der Registrierung(en) per Post
+         DM 10,-                                                = DM _____,-
+
+                                                                ===========
+
+                                                            SUMME DM _____,-
+    Zahlung durch Vorkasse:
+
+    (  ) Ueberweisung auf das Konto 0313312 der Deutschen Bank Darmstadt
+         (BLZ 508 700 05) am __. __. 199__ (bitte Datum eintragen)
+
+    (  ) beiliegendes Bargeld/Scheck Nr. _____________  (Vorsicht Diebstahl)
+
+    Der Versand des/der Registrierungscodes soll folgenderma·en geschehen:
+
+    (  ) Per Post an die oben angegebene Adresse (kostenpflichtig)
+
+    (  ) EMail   (  ) Compuserve   (  ) Fidonet (nur innerhalb Deutschlands)
+
+    Der Versand kann (in Ausnahmefaellen) bis zu 6 Wochen dauern, bei Scheck-
+    oder Barzahlung fallen die Banklaufzeiten weg. Aus dem Ausland bitte nur
+    D-Mark-Euroschecks oder Bargeld (sonst Bankspesen von ca. 10,- bis 20,-
+    hinzufuegen).
+
+    Datum/Stempel/Unterschrift: _____________________________________________
+
+
+    CD Spieler Bestellformular - Seite 2
+
+
+    Die weiteren Angaben sind freiwillig; bitte machen Sie sich trotzdem die
+    Muehe und fuellen Sie das Formular komplett aus. Vielen Dank!
+
+    Diese CD Spieler Version wurde kopiert:
+
+    ( ) aus einer Mailbox - Name/Tel: _______________________________________
+
+    ( ) von einer Shareware CD: _____________________________________________
+
+    ( ) anonymous FTP, Site: ________________________________________________
+
+    ( ) von einem Shareware-Haendler - Name/Ort: ____________________________
+
+    ( ) _____________________________________________________________________
+
+    CD Spieler wurde getestet aufgrund:
+
+    ( ) eines Testberichtes in: _____________________________________________
+
+    ( ) _____________________________________________________________________
+
+
+    Verbesserungsvorschlaege/Wuensche:
+
+    _________________________________________________________________________
+
+    _________________________________________________________________________
+
+    _________________________________________________________________________
+
+

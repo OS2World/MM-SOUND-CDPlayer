@@ -1,0 +1,1667 @@
+
+ CDPLAYER
+
+ Start         Length     Name                   Class
+ 0001:00000000 00001FBDCH CODE32                 CODE 32-bit
+               at offset 00000000 08ED0H bytes from D:\C\CDPLAYER\OBJ\SHAREWAR\CDCTL.OBJ (D:\C\CDPLAYER\SRC\CDCTL.C)
+               at offset 00008ed0 013C0H bytes from D:\C\CDPLAYER\OBJ\SHAREWAR\CDDEVICE.OBJ (D:\C\CDPLAYER\SRC\CDDEVICE.C)
+               at offset 0000a290 008C0H bytes from D:\C\CDPLAYER\OBJ\SHAREWAR\CDGLOBAL.OBJ (D:\C\CDPLAYER\SRC\CDGLOBAL.C)
+               at offset 0000ab50 003A0H bytes from D:\C\CDPLAYER\OBJ\SHAREWAR\CDMENU.OBJ (D:\C\CDPLAYER\SRC\CDMENU.C)
+               at offset 0000aef0 003A0H bytes from D:\C\CDPLAYER\OBJ\SHAREWAR\CDMSG.OBJ (D:\C\CDPLAYER\SRC\CDMSG.C)
+               at offset 0000b290 05BD0H bytes from D:\C\CDPLAYER\OBJ\SHAREWAR\CDPLAYER.OBJ (D:\C\CDPLAYER\SRC\CDPLAYER.C)
+               at offset 00010e60 00600H bytes from D:\C\CDPLAYER\OBJ\SHAREWAR\CDPOS.OBJ (D:\C\CDPLAYER\SRC\CDPOS.C)
+               at offset 00011460 01D20H bytes from D:\C\CDPLAYER\OBJ\SHAREWAR\CDPRF.OBJ (D:\C\CDPLAYER\SRC\CDPRF.C)
+               at offset 00013180 00420H bytes from D:\C\CDPLAYER\OBJ\SHAREWAR\CDTITLE.OBJ (D:\C\CDPLAYER\SRC\CDTITLE.C)
+               at offset 000135a0 00930H bytes from D:\C\CDPLAYER\OBJ\SHAREWAR\CDTSET.OBJ (D:\C\CDPLAYER\SRC\CDTSET.C)
+               at offset 00013ed0 00480H bytes from D:\C\CDPLAYER\OBJ\SHAREWAR\CDTSLIDE.OBJ (D:\C\CDPLAYER\SRC\CDTSLIDE.C)
+               at offset 00014350 00780H bytes from D:\C\CDPLAYER\OBJ\SHAREWAR\CDVOLUME.OBJ (D:\C\CDPLAYER\SRC\CDVOLUME.C)
+               at offset 00014ad0 01D40H bytes from D:\C\CDPLAYER\OBJ\SHAREWAR\SUBCLASS.OBJ (D:\C\CDPLAYER\SRC\SUBCLASS.C)
+               at offset 00016810 002D0H bytes from D:\C\CDPLAYER\OBJ\SHAREWAR\WUTIL.OBJ (D:\C\CDPLAYER\SRC\WUTIL.C)
+               at offset 00016ae0 000BEH bytes from G:\IBMCPP\LIB\dde4mbs.lib (edcstrt.ASM)
+               at offset 00016ba0 003E0H bytes from G:\IBMCPP\LIB\dde4mbs.lib (EDCINIT.C)
+               at offset 00016f80 001F8H bytes from G:\IBMCPP\LIB\dde4mbs.lib (setuparg.ASM)
+               at offset 00017178 000E0H bytes from G:\IBMCPP\LIB\dde4mbs.lib (SETUPENV.C)
+               at offset 00017258 00008H bytes from G:\IBMCPP\LIB\dde4mbs.lib (WCTDT.C)
+               at offset 00017260 00010H bytes from G:\IBMCPP\LIB\dde4mbs.lib (SCTDT.C)
+               at offset 00017270 001F0H bytes from G:\IBMCPP\LIB\dde4mbs.lib (EDCTERM.C)
+               at offset 00017460 0041CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (MALLOC.C)
+               at offset 0001787c 0014CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (FREE.C)
+               at offset 000179c8 00018H bytes from G:\IBMCPP\LIB\dde4mbs.lib (FREEWEAK.C)
+               at offset 000179e0 00480H bytes from G:\IBMCPP\LIB\dde4mbs.lib (HEAPMIN.C)
+               at offset 00017e60 000DCH bytes from G:\IBMCPP\LIB\dde4mbs.lib (CALLOC.C)
+               at offset 00017f3c 000E0H bytes from G:\IBMCPP\LIB\dde4mbs.lib (EXIT.C)
+               at offset 0001801c 00020H bytes from G:\IBMCPP\LIB\dde4mbs.lib (TERMINAT.C)
+               at offset 0001803c 0081CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (N_EXCEPT.C)
+               at offset 00018858 00068H bytes from G:\IBMCPP\LIB\dde4mbs.lib (N_EXCPIO.C)
+               at offset 000188c0 00148H bytes from G:\IBMCPP\LIB\dde4mbs.lib (N_EXCRIT.C)
+               at offset 00018a08 0007CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (N_DUMPWK.C)
+               at offset 00018a84 00010H bytes from G:\IBMCPP\LIB\dde4mbs.lib (fpreset.ASM)
+               at offset 00018a94 00014H bytes from G:\IBMCPP\LIB\dde4mbs.lib (FCLWEAK.C)
+               at offset 00018aa8 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (CWEAK.C)
+               at offset 00018ab4 00077H bytes from G:\IBMCPP\LIB\dde4mbs.lib (n_excpta.ASM)
+               at offset 00018b2c 00120H bytes from G:\IBMCPP\LIB\dde4mbs.lib (LOCINIT.C)
+               at offset 00018c4c 000DCH bytes from G:\IBMCPP\LIB\dde4mbs.lib (FREEFCB.C)
+               at offset 00018d28 00328H bytes from G:\IBMCPP\LIB\dde4mbs.lib (BEGTHRD.C)
+               at offset 00019050 001A0H bytes from G:\IBMCPP\LIB\dde4mbs.lib (ENDTHRD.C)
+               at offset 000191f0 000C0H bytes from G:\IBMCPP\LIB\dde4mbs.lib (FASTSEM.C)
+               at offset 000192b0 000A9H bytes from G:\IBMCPP\LIB\dde4mbs.lib (fastsema.ASM)
+               at offset 0001935c 0002CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (THREADID.C)
+               at offset 00019388 000F8H bytes from G:\IBMCPP\LIB\dde4mbs.lib (TSGLOBAL.C)
+               at offset 00019480 000A4H bytes from G:\IBMCPP\LIB\dde4mbs.lib (ITOA.C)
+               at offset 00019524 00024H bytes from G:\IBMCPP\LIB\dde4mbs.lib (edcmsg.ASM)
+               at offset 00019548 00258H bytes from G:\IBMCPP\LIB\dde4mbs.lib (PRTEMSG.C)
+               at offset 000197a0 0003BH bytes from G:\IBMCPP\LIB\dde4mbs.lib (strcspn.ASM)
+               at offset 000197dc 0009CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (STRICMP.C)
+               at offset 00019878 0003CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (strspn.ASM)
+               at offset 000198b4 00130H bytes from G:\IBMCPP\LIB\dde4mbs.lib (STRTOL.C)
+               at offset 000199e4 000FCH bytes from G:\IBMCPP\LIB\dde4mbs.lib (STRTOUL.C)
+               at offset 00019ae0 0010CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (CTYPETBL.C)
+               at offset 00019bec 000E1H bytes from G:\IBMCPP\LIB\dde4mbs.lib (asciitld.ASM)
+               at offset 00019cd0 000C4H bytes from G:\IBMCPP\LIB\dde4mbs.lib (asciitod.ASM)
+               at offset 00019d94 00560H bytes from G:\IBMCPP\LIB\dde4mbs.lib (ATOF.C)
+               at offset 0001a2f4 000ACH bytes from G:\IBMCPP\LIB\dde4mbs.lib (STRNICMP.C)
+               at offset 0001a3a0 000D0H bytes from G:\IBMCPP\LIB\dde4mbs.lib (ATOI.C)
+               at offset 0001a470 00504H bytes from G:\IBMCPP\LIB\dde4mbs.lib (ATOLD.C)
+               at offset 0001a974 00FFCH bytes from G:\IBMCPP\LIB\dde4mbs.lib (DOFMTO.C)
+               at offset 0001b970 00028H bytes from G:\IBMCPP\LIB\dde4mbs.lib (WEAKFMT.C)
+               at offset 0001b998 0001CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (WEAKGET.C)
+               at offset 0001b9b4 00014H bytes from G:\IBMCPP\LIB\dde4mbs.lib (WEAKCPUT.C)
+               at offset 0001b9c8 00070H bytes from G:\IBMCPP\LIB\dde4mbs.lib (FPRINTF.C)
+               at offset 0001ba38 00068H bytes from G:\IBMCPP\LIB\dde4mbs.lib (SPRINTF.C)
+               at offset 0001baa0 000D4H bytes from G:\IBMCPP\LIB\dde4mbs.lib (WCTOMB.C)
+               at offset 0001bb74 000F0H bytes from G:\IBMCPP\LIB\dde4mbs.lib (BUFPRINT.C)
+               at offset 0001bc64 01D54H bytes from G:\IBMCPP\LIB\dde4mbs.lib (GOSCAN.C)
+               at offset 0001d9b8 0004CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (SSCANF.C)
+               at offset 0001da04 00504H bytes from G:\IBMCPP\LIB\dde4mbs.lib (_CNVRT.C)
+               at offset 0001df08 00278H bytes from G:\IBMCPP\LIB\dde4mbs.lib (MKTIME.C)
+               at offset 0001e180 00088H bytes from G:\IBMCPP\LIB\dde4mbs.lib (TIME.C)
+               at offset 0001e208 00050H bytes from G:\IBMCPP\LIB\dde4mbs.lib (WMEMFILE.C)
+               at offset 0001e258 00220H bytes from G:\IBMCPP\LIB\dde4mbs.lib (CONVERT.C)
+               at offset 0001e478 0015CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (FFLUSH.C)
+               at offset 0001e5d4 00248H bytes from G:\IBMCPP\LIB\dde4mbs.lib (FILLB.C)
+               at offset 0001e81c 001B8H bytes from G:\IBMCPP\LIB\dde4mbs.lib (FLUSH.C)
+               at offset 0001e9d4 00318H bytes from G:\IBMCPP\LIB\dde4mbs.lib (FLUSHB.C)
+               at offset 0001ecec 001B0H bytes from G:\IBMCPP\LIB\dde4mbs.lib (GETCX.C)
+               at offset 0001ee9c 00190H bytes from G:\IBMCPP\LIB\dde4mbs.lib (GETENV.C)
+               at offset 0001f02c 00006H bytes from G:\IBMCPP\LIB\dde4mbs.lib (ilog2.ASM)
+               at offset 0001f034 00054H bytes from G:\IBMCPP\LIB\dde4mbs.lib (INTERR.C)
+               at offset 0001f088 00063H bytes from G:\IBMCPP\LIB\dde4mbs.lib (longjmp.ASM)
+               at offset 0001f0ec 000A4H bytes from G:\IBMCPP\LIB\dde4mbs.lib (LTOA.C)
+               at offset 0001f190 00008H bytes from G:\IBMCPP\LIB\dde4mbs.lib (W_RAISE.C)
+               at offset 0001f198 0003CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (RAND.C)
+               at offset 0001f1d4 0003AH bytes from G:\IBMCPP\LIB\dde4mbs.lib (setjmp.ASM)
+               at offset 0001f210 00020H bytes from G:\IBMCPP\LIB\dde4mbs.lib (SRAND.C)
+               at offset 0001f230 00278H bytes from G:\IBMCPP\LIB\dde4mbs.lib (UREADBS.C)
+               at offset 0001f4a8 000B0H bytes from G:\IBMCPP\LIB\dde4mbs.lib (UUNGETC.C)
+               at offset 0001f558 00044H bytes from G:\IBMCPP\LIB\dde4mbs.lib (UWRITE.C)
+               at offset 0001f59c 00034H bytes from G:\IBMCPP\LIB\dde4mbs.lib (CRT_FD.C)
+               at offset 0001f5d0 0000AH bytes from G:\IBMCPP\LIB\dde4mbs.lib (rotl.ASM)
+               at offset 0001f5dc 000A4H bytes from G:\IBMCPP\LIB\dde4mbs.lib (FREETHRD.C)
+               at offset 0001f680 00012H bytes from G:\IBMCPP\LIB\dde4mbs.lib (bts.ASM)
+               at offset 0001f694 0013CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (MBTOWC.C)
+               at offset 0001f7d0 00164H bytes from G:\IBMCPP\LIB\dde4mbs.lib (WCSTOMBS.C)
+               at offset 0001f934 001D8H bytes from G:\IBMCPP\LIB\dde4mbs.lib (TOINT.C)
+               at offset 0001fb0c 000A8H bytes from G:\IBMCPP\LIB\dde4mbs.lib (XREAD.C)
+               at offset 0001fbb4 00014H bytes from G:\IBMCPP\LIB\dde4mbs.lib (EDCMXDEF.C)
+               at offset 0001fbc8 00014H bytes from G:\IBMCPP\LIB\dde4mbs.lib (MATHERR.C)
+
+ 0001:0001FBDC 000000030H _MSGSEG32              CODE 32-bit
+               at offset 00000000 00030H bytes from G:\TOOLKT21\OS2LIB\os2386.LIB (.\msgseg32.asm)
+
+ 0002:00000000 000001010H DATA32                 DATA 32-bit
+               at offset 00000000 00060H bytes from D:\C\CDPLAYER\OBJ\SHAREWAR\CDCTL.OBJ (D:\C\CDPLAYER\SRC\CDCTL.C)
+               at offset 00000060 00040H bytes from D:\C\CDPLAYER\OBJ\SHAREWAR\CDGLOBAL.OBJ (D:\C\CDPLAYER\SRC\CDGLOBAL.C)
+               at offset 000000a0 00010H bytes from D:\C\CDPLAYER\OBJ\SHAREWAR\CDMSG.OBJ (D:\C\CDPLAYER\SRC\CDMSG.C)
+               at offset 000000b0 000C0H bytes from D:\C\CDPLAYER\OBJ\SHAREWAR\CDPLAYER.OBJ (D:\C\CDPLAYER\SRC\CDPLAYER.C)
+               at offset 00000170 00060H bytes from D:\C\CDPLAYER\OBJ\SHAREWAR\CDPOS.OBJ (D:\C\CDPLAYER\SRC\CDPOS.C)
+               at offset 000001d0 00430H bytes from D:\C\CDPLAYER\OBJ\SHAREWAR\CDPRF.OBJ (D:\C\CDPLAYER\SRC\CDPRF.C)
+               at offset 00000600 00030H bytes from D:\C\CDPLAYER\OBJ\SHAREWAR\CDTITLE.OBJ (D:\C\CDPLAYER\SRC\CDTITLE.C)
+               at offset 00000630 00010H bytes from D:\C\CDPLAYER\OBJ\SHAREWAR\CDTSET.OBJ (D:\C\CDPLAYER\SRC\CDTSET.C)
+               at offset 00000640 0000EH bytes from G:\IBMCPP\LIB\dde4mbs.lib (edcstrt.ASM)
+               at offset 00000650 002C0H bytes from G:\IBMCPP\LIB\dde4mbs.lib (EDCINIT.C)
+               at offset 00000910 00010H bytes from G:\IBMCPP\LIB\dde4mbs.lib (setuparg.ASM)
+               at offset 00000920 00010H bytes from G:\IBMCPP\LIB\dde4mbs.lib (FREE.C)
+               at offset 00000930 00030H bytes from G:\IBMCPP\LIB\dde4mbs.lib (FREEWEAK.C)
+               at offset 00000960 00020H bytes from G:\IBMCPP\LIB\dde4mbs.lib (HEAPMIN.C)
+               at offset 00000980 00010H bytes from G:\IBMCPP\LIB\dde4mbs.lib (CALLOC.C)
+               at offset 00000990 00010H bytes from G:\IBMCPP\LIB\dde4mbs.lib (EXIT.C)
+               at offset 000009a0 000B0H bytes from G:\IBMCPP\LIB\dde4mbs.lib (N_EXCEPT.C)
+               at offset 00000a50 00002H bytes from G:\IBMCPP\LIB\dde4mbs.lib (fpreset.ASM)
+               at offset 00000a60 002A0H bytes from G:\IBMCPP\LIB\dde4mbs.lib (LOCINIT.C)
+               at offset 00000d00 000A0H bytes from G:\IBMCPP\LIB\dde4mbs.lib (BEGTHRD.C)
+               at offset 00000da0 00030H bytes from G:\IBMCPP\LIB\dde4mbs.lib (ENDTHRD.C)
+               at offset 00000dd0 00010H bytes from G:\IBMCPP\LIB\dde4mbs.lib (PRTEMSG.C)
+               at offset 00000de0 00110H bytes from G:\IBMCPP\LIB\dde4mbs.lib (CTYPETBL.C)
+               at offset 00000ef0 00010H bytes from G:\IBMCPP\LIB\dde4mbs.lib (DOFMTO.C)
+               at offset 00000f00 00070H bytes from G:\IBMCPP\LIB\dde4mbs.lib (_CNVRT.C)
+               at offset 00000f70 00070H bytes from G:\IBMCPP\LIB\dde4mbs.lib (MKTIME.C)
+               at offset 00000fe0 00010H bytes from G:\IBMCPP\LIB\dde4mbs.lib (FFLUSH.C)
+               at offset 00000ff0 00010H bytes from G:\IBMCPP\LIB\dde4mbs.lib (GETENV.C)
+               at offset 00001000 00010H bytes from G:\IBMCPP\LIB\dde4mbs.lib (CRT_FD.C)
+
+ 0002:00001010 000000000H CTOR_DTOR1             DATA 32-bit
+ 0002:00001010 000000000H CTOR_DTOR2             DATA 32-bit
+ 0002:00001010 000000000H CTOR_DTOR3             DATA 32-bit
+ 0002:00001010 000000990H CONST32                CONST 32-bit
+               at offset 00000000 00020H bytes from G:\IBMCPP\LIB\dde4mbs.lib (EDCINIT.C)
+               at offset 00000020 00010H bytes from G:\IBMCPP\LIB\dde4mbs.lib (MALLOC.C)
+               at offset 00000030 00150H bytes from G:\IBMCPP\LIB\dde4mbs.lib (LOCINIT.C)
+               at offset 00000180 00030H bytes from G:\IBMCPP\LIB\dde4mbs.lib (ITOA.C)
+               at offset 000001b0 00090H bytes from G:\IBMCPP\LIB\dde4mbs.lib (PRTEMSG.C)
+               at offset 00000240 000C8H bytes from G:\IBMCPP\LIB\dde4mbs.lib (fltconst.ASM)
+               at offset 00000308 00592H bytes from G:\IBMCPP\LIB\dde4mbs.lib (powconst.ASM)
+               at offset 0000089c 0000AH bytes from G:\IBMCPP\LIB\dde4mbs.lib (asciitld.ASM)
+               at offset 000008a8 0000AH bytes from G:\IBMCPP\LIB\dde4mbs.lib (asciitod.ASM)
+               at offset 000008c0 00020H bytes from G:\IBMCPP\LIB\dde4mbs.lib (ATOF.C)
+               at offset 000008e0 00020H bytes from G:\IBMCPP\LIB\dde4mbs.lib (ATOLD.C)
+               at offset 00000900 00040H bytes from G:\IBMCPP\LIB\dde4mbs.lib (DOFMTO.C)
+               at offset 00000940 00020H bytes from G:\IBMCPP\LIB\dde4mbs.lib (GOSCAN.C)
+               at offset 00000960 00030H bytes from G:\IBMCPP\LIB\dde4mbs.lib (LTOA.C)
+
+ 0002:000019A0 00000000CH EDC1                   EDC_CLASS 32-bit
+               at offset 00000000 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (n_excpta.ASM)
+
+ 0002:000019AC 000000384H EDC2                   EDC_CLASS 32-bit
+               at offset 00000000 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (edcstrt.ASM)
+               at offset 0000000c 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (EDCINIT.C)
+               at offset 00000018 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (setuparg.ASM)
+               at offset 00000024 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (SETUPENV.C)
+               at offset 00000030 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (EDCTERM.C)
+               at offset 0000003c 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (MALLOC.C)
+               at offset 00000048 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (FREE.C)
+               at offset 00000054 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (HEAPMIN.C)
+               at offset 00000060 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (CALLOC.C)
+               at offset 0000006c 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (EXIT.C)
+               at offset 00000078 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (TERMINAT.C)
+               at offset 00000084 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (N_EXCEPT.C)
+               at offset 00000090 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (N_EXCRIT.C)
+               at offset 0000009c 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (N_DUMPWK.C)
+               at offset 000000a8 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (fpreset.ASM)
+               at offset 000000b4 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (FCLWEAK.C)
+               at offset 000000c0 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (LOCINIT.C)
+               at offset 000000cc 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (FREEFCB.C)
+               at offset 000000d8 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (BEGTHRD.C)
+               at offset 000000e4 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (ENDTHRD.C)
+               at offset 000000f0 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (FASTSEM.C)
+               at offset 000000fc 00018H bytes from G:\IBMCPP\LIB\dde4mbs.lib (fastsema.ASM)
+               at offset 00000114 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (THREADID.C)
+               at offset 00000120 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (TSGLOBAL.C)
+               at offset 0000012c 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (ITOA.C)
+               at offset 00000138 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (edcmsg.ASM)
+               at offset 00000144 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (PRTEMSG.C)
+               at offset 00000150 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (strcspn.ASM)
+               at offset 0000015c 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (STRICMP.C)
+               at offset 00000168 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (strspn.ASM)
+               at offset 00000174 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (STRTOL.C)
+               at offset 00000180 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (STRTOUL.C)
+               at offset 0000018c 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (CTYPETBL.C)
+               at offset 00000198 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (asciitld.ASM)
+               at offset 000001a4 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (asciitod.ASM)
+               at offset 000001b0 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (ATOF.C)
+               at offset 000001bc 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (STRNICMP.C)
+               at offset 000001c8 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (ATOI.C)
+               at offset 000001d4 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (ATOLD.C)
+               at offset 000001e0 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (DOFMTO.C)
+               at offset 000001ec 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (WEAKFMT.C)
+               at offset 000001f8 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (WEAKGET.C)
+               at offset 00000204 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (WEAKCPUT.C)
+               at offset 00000210 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (FPRINTF.C)
+               at offset 0000021c 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (SPRINTF.C)
+               at offset 00000228 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (WCTOMB.C)
+               at offset 00000234 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (BUFPRINT.C)
+               at offset 00000240 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (GOSCAN.C)
+               at offset 0000024c 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (SSCANF.C)
+               at offset 00000258 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (_CNVRT.C)
+               at offset 00000264 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (MKTIME.C)
+               at offset 00000270 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (TIME.C)
+               at offset 0000027c 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (FFLUSH.C)
+               at offset 00000288 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (FILLB.C)
+               at offset 00000294 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (FLUSH.C)
+               at offset 000002a0 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (FLUSHB.C)
+               at offset 000002ac 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (GETCX.C)
+               at offset 000002b8 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (GETENV.C)
+               at offset 000002c4 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (INTERR.C)
+               at offset 000002d0 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (longjmp.ASM)
+               at offset 000002dc 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (LTOA.C)
+               at offset 000002e8 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (RAND.C)
+               at offset 000002f4 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (setjmp.ASM)
+               at offset 00000300 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (SRAND.C)
+               at offset 0000030c 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (UUNGETC.C)
+               at offset 00000318 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (UWRITE.C)
+               at offset 00000324 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (rotl.ASM)
+               at offset 00000330 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (FREETHRD.C)
+               at offset 0000033c 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (bts.ASM)
+               at offset 00000348 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (MBTOWC.C)
+               at offset 00000354 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (WCSTOMBS.C)
+               at offset 00000360 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (TOINT.C)
+               at offset 0000036c 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (EDCMXDEF.C)
+               at offset 00000378 0000CH bytes from G:\IBMCPP\LIB\dde4mbs.lib (MATHERR.C)
+
+ 0002:00001D30 000000004H EDC3                   EDC_CLASS 32-bit
+               at offset 00000000 00004H bytes from G:\IBMCPP\LIB\dde4mbs.lib (n_excpta.ASM)
+
+ 0002:00001D34 000000000H BSS32                  BSS 32-bit
+ 0002:00001D34 000007CB0H c_common               BSS 32-bit
+ 0002:000099F0 000009C40H STACK32                STACK 32-bit
+               at offset 00000000 08000H bytes from G:\IBMCPP\LIB\dde4mbs.lib (edcstrt.ASM)
+
+
+ Origin   Group
+ 0000:0   FLAT
+ 0002:0   DGROUP
+
+ Address       Export                  Alias
+
+ 0001:0000D4A0 AboutDlgProc            AboutDlgProc
+ 0001:00015018 BackwardWndProc         BackwardWndProc
+ 0001:00000000 BGBoxProc               BGBoxProc
+ 0001:00016340 CDTimeLeftWndProc       CDTimeLeftWndProc
+ 0001:000163F0 CDTimePlayedWndProc     CDTimePlayedWndProc
+ 0001:000155F7 ChangeTitlesWndProc     ChangeTitlesWndProc
+ 0001:000158B0 ChannelIndependentWndProc  ChannelIndependentWndProc
+ 0001:000157A8 ChannelSwapWndProc      ChannelSwapWndProc
+ 0001:00015FD1 CurrTrackWndProc        CurrTrackWndProc
+ 0001:0000C0D4 DisplaySettingsDlgProc  DisplaySettingsDlgProc
+ 0001:00014C84 EjectWndProc            EjectWndProc
+ 0001:000000C0 FGBoxProc               FGBoxProc
+ 0001:00014F68 ForwardWndProc          ForwardWndProc
+ 0001:0000B290 HardwareSettingsDlgProc  HardwareSettingsDlgProc
+ 0001:00014AD0 HelpWndProc             HelpWndProc
+ 0001:000032C2 InfoDlgProc             InfoDlgProc
+ 0001:000153F7 InfoWindowWndProc       InfoWindowWndProc
+ 0001:0000DD96 MainDlgProc             MainDlgProc
+ 0001:000156F7 MuteWndProc             MuteWndProc
+ 0001:000152F4 OptionsWndProc          OptionsWndProc
+ 0001:0000B5A0 OutputSettingsDlgProc   OutputSettingsDlgProc
+ 0001:00014E08 PauseWndProc            PauseWndProc
+ 0001:0000BCD0 PlaySettingsDlgProc     PlaySettingsDlgProc
+ 0001:00014EB8 PlayWndProc             PlayWndProc
+ 0001:00004CE0 ProgramEditorDlgProc    ProgramEditorDlgProc
+ 0001:000154F7 ProgramTitlesWndProc    ProgramTitlesWndProc
+ 0001:00014BD3 RepeatWndProc           RepeatWndProc
+ 0001:0000B8E0 SaveSettingsDlgProc     SaveSettingsDlgProc
+ 0001:0000C9E8 SettingsDlgProc         SettingsDlgProc
+ 0001:00014D57 StopWndProc             StopWndProc
+ 0001:00000180 TEEntryTrackWndProc     TEEntryTrackWndProc
+ 0001:000164A0 TextCDWndProc           TextCDWndProc
+ 0001:00016080 TextCurrTrackWndProc    TextCurrTrackWndProc
+ 0001:00015244 TextTitleWndProc        TextTitleWndProc
+ 0001:00016290 TextTrackWndProc        TextTrackWndProc
+ 0001:0000C4A0 TimeSettingsDlgProc     TimeSettingsDlgProc
+ 0001:000150C8 TimeSliderWndProc       TimeSliderWndProc
+ 0001:00000330 TitleEditorDlgProc      TitleEditorDlgProc
+ 0001:00015195 TitleSelectWndProc      TitleSelectWndProc
+ 0001:00015B51 TrackSetScrollBarWndProc  TrackSetScrollBarWndProc
+ 0001:00015C90 TrackSetWndProc         TrackSetWndProc
+ 0001:00016130 TrackTimeLeftWndProc    TrackTimeLeftWndProc
+ 0001:000161E0 TrackTimePlayedWndProc  TrackTimePlayedWndProc
+ 0001:00015A81 VolumeLeftWndProc       VolumeLeftWndProc
+ 0001:000159B3 VolumeRightWndProc      VolumeRightWndProc
+
+  Address         Publics by Name
+
+ 0002:00009868       @BSSATOF.C
+ 0002:000023F0       @BSSATOLD.C
+ 0002:000048A0       @BSSD:\C\CDPLAYER\SRC\CDCTL.C
+ 0002:0000216C       @BSSD:\C\CDPLAYER\SRC\CDDEVICE.C
+ 0002:0000447C       @BSSD:\C\CDPLAYER\SRC\CDMSG.C
+ 0002:00001D5C       @BSSD:\C\CDPLAYER\SRC\CDPLAYER.C
+ 0002:00009704       @BSSD:\C\CDPLAYER\SRC\CDPOS.C
+ 0002:00003A68       @BSSD:\C\CDPLAYER\SRC\CDPRF.C
+ 0002:000022A4       @BSSD:\C\CDPLAYER\SRC\CDTITLE.C
+ 0002:0000226C       @BSSD:\C\CDPLAYER\SRC\CDTSLIDE.C
+ 0002:00002274       @BSSD:\C\CDPLAYER\SRC\CDVOLUME.C
+ 0002:000029FC       @BSSEDCINIT.C
+ 0002:00002294       @BSSGOSCAN.C
+ 0002:000030EC       @BSSN_EXCEPT.C
+ 0002:000030D0       @BSSPRTEMSG.C
+ 0001:0000D4A0       AboutDlgProc
+ 0002:000097A4       AboutText
+ 0002:0000006C       AnimationOn
+ 0002:00000070       AnimationRate
+ 0002:00002C18       ApplKillText
+ 0002:00009840       ApplTitle
+ 0001:0000B074       AreYouSure
+ 0001:0001A2CC       atof
+ 0001:0001A3A0       atoi
+ 0002:000099B0       AutoRepeat
+ 0002:00009838       AutoStart
+ 0002:00000068       BackwardThreshold
+ 0001:00015018       BackwardWndProc
+ 0001:00000000       BGBoxProc
+ 0002:00003134       Busy
+ 0001:00017E60       calloc
+ 0001:000090E8       CDCloseDevice
+ 0001:000094F1       CDDeleteFromPlayList
+ 0002:000026E4       CDDeleteText
+ 0001:00009C72       CDDriverInfo
+ 0001:00009238       CDEject
+ 0001:000091A7       CDEjectImm
+ 0001:0000B280       CDError
+ 0001:0000B250       CDFatalError
+ 0001:00009632       CDFlushPlayList
+ 0001:000096D0       CDGetContents
+ 0001:000096C4       CDGetDefPlayList
+ 0001:00009440       CDGetPosition
+ 0001:000093E3       CDGetRawPosition
+ 0001:00009C10       CDGetStatus
+ 0001:0000A050       CDInitDevice
+ 0001:00009561       CDInsertInPlayList
+ 0001:00008ED0       CDLastErrStr
+ 0001:00009160       CDLock
+ 0001:00008ED6       CDMuteVolume
+ 0002:0000974C       CDNoAudio
+ 0002:00003148       CDNone
+ 0001:0000A0E5       CDOpenDevice
+ 0001:00009350       CDPause
+ 0001:00009394       CDPlay
+ 0001:00012340       CDPrfClose
+ 0001:00012E15       CDPrfCopyAccess
+ 0001:00011D00       CDPrfDeleteAccess
+ 0001:00012C50       CDPrfGetOption
+ 0001:00012864       CDPrfInitOptions
+ 0001:00012780       CDPrfLoadVolume
+ 0001:00012540       CDPrfLoadWindowPos
+ 0001:00012980       CDPrfOpen
+ 0001:00011EC1       CDPrfQueryAccess
+ 0001:00012E58       CDPrfQueryAccessByTitle
+ 0001:00011AD4       CDPrfQueryCDInfo
+ 0001:00011C16       CDPrfQueryCDTitle
+ 0001:00011C94       CDPrfQueryContents
+ 0001:00011770       CDPrfQueryPlayList
+ 0001:00011690       CDPrfQueryPosition
+ 0001:00011460       CDPrfQueryRegistered
+ 0001:00011870       CDPrfQueryTrackInfo
+ 0001:000119F6       CDPrfQueryTrackTitle
+ 0001:00011E30       CDPrfReleaseAccess
+ 0001:00012820       CDPrfSaveVolume
+ 0001:00012640       CDPrfSaveWindowPos
+ 0001:00011A72       CDPrfSetCDInfo
+ 0001:00011B90       CDPrfSetCDTitle
+ 0001:00011C64       CDPrfSetContents
+ 0001:00012A60       CDPrfSetOption
+ 0001:000116F1       CDPrfSetPlayList
+ 0001:00011660       CDPrfSetPosition
+ 0001:00011540       CDPrfSetRegData
+ 0001:000117E0       CDPrfSetTrackInfo
+ 0001:000118F0       CDPrfSetTrackTitle
+ 0001:000115B7       CDPrfTestRegData
+ 0001:0000A228       CDQueryDevName
+ 0001:00008F60       CDQueryVolume
+ 0001:00009650       CDResetPlayList
+ 0001:00009307       CDResume
+ 0001:00009280       CDSeek
+ 0001:000091F0       CDSeekImm
+ 0001:00009FB7       CDSetAdviseOff
+ 0001:0000A003       CDSetAdviseRate
+ 0001:0000A188       CDSetConnector
+ 0001:00009F70       CDSetCuePoint
+ 0001:00009F20       CDSetCuePointOff
+ 0001:00008FE0       CDSetVolume
+ 0001:000092C3       CDStop
+ 0001:00016340       CDTimeLeftWndProc
+ 0001:000163F0       CDTimePlayedWndProc
+ 0001:00009117       CDUnlock
+ 0002:0000992C       CDUntitled
+ 0002:00009888       ChangeText
+ 0001:00013293       ChangeTitle
+ 0001:000155F7       ChangeTitlesWndProc
+ 0001:00014376       ChannelIndependent
+ 0001:000158B0       ChannelIndependentWndProc
+ 0001:00014350       ChannelSwap
+ 0001:000157A8       ChannelSwapWndProc
+ 0001:00002C72       CmdChangeTitles
+ 0001:00002A40       CmdInfo
+ 0001:00002B12       CmdOptions
+ 0001:00002BA1       CmdProgramPlayList
+ 0002:00008D4C       Contents
+ 0002:00002744       ControlMenu
+ 0002:0000299C       ControlText
+ 0002:000000B0       CopyRightString
+ 0002:00002440       CurrModalID
+ 0002:00003128       CurrModalOwner
+ 0001:00015FD1       CurrTrackWndProc
+ 0002:00000080       DefaultDeviceName
+ 0002:00009958       DeleteText
+ 0002:00002FD0       DeviceErrText
+ 0002:000098A8       DeviceName
+ 0002:00003138       DevID
+ 0001:0000C0D4       DisplaySettingsDlgProc
+ 0002:0000265C       DlgAccelTable
+ 0001:0001FBEE       DOS32GETMESSAGE
+ 0000:00000000  Imp  DOS32IQUERYMESSAGECP (MSG.8)
+ 0000:00000000  Imp  DOS32TRUEGETMESSAGE  (MSG.6)
+ 0000:00000000  Imp  DosAllocMem          (DOSCALLS.299)
+ 0000:00000000  Imp  DosAllocSharedMem    (DOSCALLS.300)
+ 0000:00000000  Imp  DosCloseEventSem     (DOSCALLS.326)
+ 0000:00000000  Imp  DosCloseMutexSem     (DOSCALLS.333)
+ 0000:00000000  Imp  DosCreateEventSem    (DOSCALLS.324)
+ 0000:00000000  Imp  DosCreateMutexSem    (DOSCALLS.331)
+ 0000:00000000  Imp  DosCreateThread      (DOSCALLS.311)
+ 0000:00000000  Imp  DosExit              (DOSCALLS.234)
+ 0000:00000000  Imp  DosExitList          (DOSCALLS.296)
+ 0000:00000000  Imp  DosFreeMem           (DOSCALLS.304)
+ 0000:00000000  Imp  DosGetDateTime       (DOSCALLS.230)
+ 0000:00000000  Imp  DosGetInfoBlocks     (DOSCALLS.312)
+ 0001:0001FBEE       DosGetMessage
+ 0000:00000000  Imp  DosGetNamedSharedMem (DOSCALLS.301)
+ 0000:00000000  Imp  DosGetResource       (DOSCALLS.352)
+ 0000:00000000  Imp  DOSPOSTEVENTSEM      (DOSCALLS.328)
+ 0000:00000000  Imp  DosQueryCtryInfo     (NLS.5)
+ 0000:00000000  Imp  DosQueryDBCSEnv      (NLS.6)
+ 0000:00000000  Imp  DosQueryHType        (DOSCALLS.224)
+ 0000:00000000  Imp  DosQueryPathInfo     (DOSCALLS.223)
+ 0000:00000000  Imp  DosQuerySysInfo      (DOSCALLS.348)
+ 0000:00000000  Imp  DosRaiseException    (DOSCALLS.356)
+ 0000:00000000  Imp  DosRead              (DOSCALLS.281)
+ 0000:00000000  Imp  DOSRELEASEMUTEXSEM   (DOSCALLS.335)
+ 0000:00000000  Imp  DOSREQUESTMUTEXSEM   (DOSCALLS.334)
+ 0000:00000000  Imp  DOSRESETEVENTSEM     (DOSCALLS.327)
+ 0000:00000000  Imp  DosSetExceptionHandler (DOSCALLS.354)
+ 0000:00000000  Imp  DosSetFilePtr        (DOSCALLS.256)
+ 0000:00000000  Imp  DosSetSignalExceptionFocus (DOSCALLS.378)
+ 0000:00000000  Imp  DosUnsetExceptionHandler (DOSCALLS.355)
+ 0000:00000000  Imp  DosUnwindException   (DOSCALLS.357)
+ 0000:00000000  Imp  DOSWAITEVENTSEM      (DOSCALLS.329)
+ 0000:00000000  Imp  DosWrite             (DOSCALLS.282)
+ 0002:00009908       DriverInfo
+ 0001:00014C84       EjectWndProc
+ 0001:00002FB3       EnableEject
+ 0001:0000ABD5       EnableMenuItemControl
+ 0001:00002D90       EnablePlayControls
+ 0001:00010F00       EnablePosition
+ 0001:000141A8       EnableTimeSlider
+ 0001:00013205       EnableTitleSelect
+ 0001:00013AB0       EnableTrackSet
+ 0001:00014842       EnableVolume
+ 0001:00017F3C       exit
+ 0001:0001E478       fflush
+ 0001:000000C0       FGBoxProc
+ 0001:00014F68       ForwardWndProc
+ 0001:00017938       free
+ 0001:0001EE9C       getenv
+ 0000:00000000  Imp  GpiCreateLogColorTable (PMGPI.592)
+ 0000:00000000  Imp  GpiResetPS           (PMGPI.498)
+ 0000:00000000  Imp  GpiRestorePS         (PMGPI.499)
+ 0000:00000000  Imp  GpiSavePS            (PMGPI.501)
+ 0002:00003104       hab
+ 0001:0000B290       HardwareSettingsDlgProc
+ 0002:0000323C       HelpMenu
+ 0002:0000487C       HelpText
+ 0002:00009804       HelpTitle
+ 0001:00014AD0       HelpWndProc
+ 0002:0000312C       hmq
+ 0002:0000489C       hptrIcon
+ 0002:00003A64       hptrWait
+ 0002:00003238       hSwitch
+ 0002:00002660       hwndBackward
+ 0002:0000311C       hwndCDTimeLeft
+ 0002:0000318C       hwndCDTimePlayed
+ 0002:00003178       hwndChangeTitles
+ 0002:000023EC       hwndChannelIndependent
+ 0002:00003144       hwndChannelSwap
+ 0002:000030D4       hwndCurrTrack
+ 0002:00003230       hwndDlg
+ 0002:000097A0       hwndEject
+ 0002:00002664       hwndForward
+ 0002:00003A58       hwndHelp
+ 0002:00003120       hwndInfoWindow
+ 0002:000026A8       hwndMainHelp
+ 0002:00009748       hwndMute
+ 0002:00002C0C       hwndOptions
+ 0002:0000983C       hwndPause
+ 0002:00003240       hwndPlay
+ 0002:000031CC       hwndProgramTitles
+ 0002:000099A0       hwndRepeat
+ 0002:00009700       hwndStop
+ 0002:000099A8       hwndTextCD
+ 0002:000031D8       hwndTextCurrTrack
+ 0002:000030E4       hwndTextTitle
+ 0002:000030D8       hwndTextTrack
+ 0002:00003118       hwndTimeSlider
+ 0002:00003180       hwndTitleSelect
+ 0002:000026AC       hwndTrackSet
+ 0002:00001D58       hwndTrackSetScrollBar
+ 0002:000031C8       hwndTrackTimeLeft
+ 0002:00009884       hwndTrackTimePlayed
+ 0002:00003124       hwndVolumeLeft
+ 0002:00003190       hwndVolumeRight
+ 0002:000099C0       ImportText
+ 0002:00003228       InfoDlg
+ 0001:000032C2       InfoDlgProc
+ 0002:00009860       InfoHidden
+ 0002:00002F3C       InfoInProcess
+ 0001:000153F7       InfoWindowWndProc
+ 0002:00002418       IniFileName
+ 0001:00003020       InitButtons
+ 0001:0000D787       InitMainDlg
+ 0001:0000AC11       InitMenus
+ 0001:0000DA70       InitMousePointers
+ 0001:00010E60       InitPosition
+ 0001:00016550       InitSubclasses
+ 0001:00014281       InitTimeSlider
+ 0001:00013260       InitTitleSelect
+ 0001:00013D91       InitTrackSet
+ 0001:00014480       InitVolume
+ 0001:00003226       IsHelpButton
+ 0002:0000274C       LibraryText
+ 0002:00000074       ListBoxAnimation
+ 0001:0000A290       LoadResStrings
+ 0002:00002FC0       LockWhilePlay
+ 0001:0001F088       longjmp
+ 0001:0000DA90       main
+ 0001:0000DD96       MainDlgProc
+ 0002:00003234       MainMenu
+ 0001:00016958       MakeMainWindow
+ 0001:000177D0       malloc
+ 0001:0001F694       mbtowc
+ 0000:00000000  Imp  mciGetErrorString    (MDM.3)
+ 0000:00000000  Imp  mciSendCommand       (MDM.1)
+ 0001:0001DF08       mktime
+ 0002:0000316C       ModalProcessing
+ 0002:00002778       MuteOffText
+ 0002:00001D34       MuteOnText
+ 0001:000143A0       MuteVolume
+ 0001:000156F7       MuteWndProc
+ 0002:000026B4       NoDeviceText
+ 0002:000096F0       NoneText
+ 0002:000031E0       OldBackwardWndProc
+ 0002:000026B0       OldBGBoxProc
+ 0002:000099AC       OldCDTimeLeftWndProc
+ 0002:00002410       OldCDTimePlayedWndProc
+ 0002:00002414       OldChangeTitlesWndProc
+ 0002:0000322C       OldChannelIndependentWndProc
+ 0002:00002288       OldChannelSwapWndProc
+ 0002:00009864       OldCurrTrackWndProc
+ 0002:0000313C       OldEjectWndProc
+ 0002:000026D4       OldFGBoxProc
+ 0002:000031D4       OldForwardWndProc
+ 0002:00003100       OldHelpWndProc
+ 0002:000099B4       OldInfoWindowWndProc
+ 0002:000030FC       OldMuteWndProc
+ 0002:000031D0       OldOptionsWndProc
+ 0002:00003168       OldPauseWndProc
+ 0002:0000310C       OldPlayWndProc
+ 0002:000030F8       OldProgramTitlesWndProc
+ 0002:00003188       OldRepeatWndProc
+ 0002:00003110       OldStopWndProc
+ 0002:0000243C       OldTEEntryTrackWndProc
+ 0002:000031C0       OldTextCDWndProc
+ 0002:00003108       OldTextCurrTrackWndProc
+ 0002:00009928       OldTextTitleWndProc
+ 0002:0000987C       OldTextTrackWndProc
+ 0002:00009978       OldTimeSliderWndProc
+ 0002:0000228C       OldTitleSelectWndProc
+ 0002:000031DC       OldTrackSetScrollBarWndProc
+ 0002:000031E4       OldTrackSetWndProc
+ 0002:000030DC       OldTrackTimeLeftWndProc
+ 0002:00003130       OldTrackTimePlayedWndProc
+ 0002:000099E0       OldVolumeLeftWndProc
+ 0002:00002290       OldVolumeRightWndProc
+ 0001:000152F4       OptionsWndProc
+ 0002:00002C14       OutputExtAmp
+ 0002:00000078       OutputHeadphones
+ 0001:0000B5A0       OutputSettingsDlgProc
+ 0002:0000007C       OutputSoundcard
+ 0002:00002490       PageOneOfOne
+ 0001:00014E08       PauseWndProc
+ 0002:0000997C       PlayerText
+ 0002:00003244       PlayList
+ 0001:0000BCD0       PlaySettingsDlgProc
+ 0001:00014EB8       PlayWndProc
+ 0001:0000ABA2       PopupFromClick
+ 0001:0000AB50       PopupFromKey
+ 0002:000096D8       Position
+ 0001:00011016       PosPosition
+ 0001:00013FD3       PosTimeSlider
+ 0001:000131D0       PosTitleSelect
+ 0001:000138F0       PosTrackSet
+ 0000:00000000  Imp  PrfCloseProfile      (PMSHAPI.103)
+ 0000:00000000  Imp  PrfOpenProfile       (PMSHAPI.102)
+ 0000:00000000  Imp  PrfQueryProfileData  (PMSHAPI.117)
+ 0000:00000000  Imp  PrfQueryProfileSize  (PMSHAPI.101)
+ 0000:00000000  Imp  PrfQueryProfileString (PMSHAPI.115)
+ 0000:00000000  Imp  PrfWriteProfileData  (PMSHAPI.118)
+ 0000:00000000  Imp  PrfWriteProfileString (PMSHAPI.116)
+ 0002:00003194       ProgramEditorDlg
+ 0001:00004CE0       ProgramEditorDlgProc
+ 0002:00009924       ProgramEditorHidden
+ 0002:0000248C       ProgramEditorInProcess
+ 0002:00002554       ProgramPath
+ 0002:000024D0       ProgramSave
+ 0001:000154F7       ProgramTitlesWndProc
+ 0001:0001F198       rand
+ 0001:000139A0       RedrawTrackSet
+ 0002:0000976C       RegIDText
+ 0001:0000D3B4       RegisterDlgProc
+ 0002:00009880       Registered
+ 0002:0000319C       RegisteredForText
+ 0001:00014BD3       RepeatWndProc
+ 0001:00014460       ResetVolume
+ 0002:0000279C       RightRegText
+ 0002:00002748       SaveMarkers
+ 0002:00002F38       SavePosition
+ 0001:0000B8E0       SaveSettingsDlgProc
+ 0002:0000999C       SaveVolume
+ 0002:000030E0       SaveWindowPos
+ 0002:00002444       SeekInPause
+ 0001:0001F1D4       setjmp
+ 0001:000146F2       SetLeftVolume
+ 0001:000145A8       SetRightVolume
+ 0002:00002488       SettingsDlg
+ 0002:000031BC       SettingsDlgHidden
+ 0002:000099BC       SettingsDlgInProcess
+ 0001:0000C9E8       SettingsDlgProc
+ 0002:00002798       SettingsMenu
+ 0002:00002F18       SettingsText
+ 0001:00014051       SetupTimeSlider
+ 0001:00013380       SetupTitleSelect
+ 0001:000138F6       SetupTrackSet
+ 0001:0000D730       SetWaitPointer
+ 0001:00016A40       SetWindowTitle
+ 0002:000000D4       SharedMemName
+ 0001:0000B117       SharewareBox
+ 0002:00002A0C       SharewareText
+ 0001:0001FBDC       sig32
+ 0002:00009834       SliderSet
+ 0001:0001F210       srand
+ 0002:000000EC       Status
+ 0002:00000658       stderr
+ 0002:00000650       stdin
+ 0002:00000654       stdout
+ 0001:00014D57       StopWndProc
+ 0001:000197A0       strcspn
+ 0001:000197DC       stricmp
+ 0001:0001A2F4       strnicmp
+ 0001:00019878       strspn
+ 0001:00019DC4       strtod
+ 0001:000198B4       strtol
+ 0001:0001A470       strtold
+ 0001:000199E4       strtoul
+ 0002:000099B8       sysSubmenu
+ 0002:00002514       TabAnimation
+ 0002:00008D0C       TabDevice
+ 0002:000098C8       TabDisplay
+ 0002:000097C4       TabOutput
+ 0002:00002F40       TabOutputDest
+ 0002:000031E8       TabSave
+ 0002:00002668       TEChangeText
+ 0001:00000180       TEEntryTrackWndProc
+ 0002:00002F80       TELibraryText
+ 0001:000164A0       TextCDWndProc
+ 0001:00016080       TextCurrTrackWndProc
+ 0001:00015244       TextTitleWndProc
+ 0001:00016290       TextTrackWndProc
+ 0001:0001E180       time
+ 0002:000099A4       TimeFormat
+ 0002:00000064       TimeRefreshRate
+ 0002:00000060       TimeSeparator
+ 0001:0000C4A0       TimeSettingsDlgProc
+ 0001:00013ED0       TimeSliderControl
+ 0002:00003198       TimeSliderDragged
+ 0001:000150C8       TimeSliderWndProc
+ 0002:000026D8       TimeUnknown
+ 0002:00002510       TitleAccess
+ 0002:00003114       TitleEditorDlg
+ 0001:00000330       TitleEditorDlgProc
+ 0002:000031C4       TitleEditorHidden
+ 0002:00001D54       TitleEditorInProcess
+ 0001:00013180       TitleSelectControl
+ 0001:00015195       TitleSelectWndProc
+ 0002:00003A5C       TitleSep
+ 0001:00016810       TrackFrameRestricted
+ 0002:00000088       TrackNumberPrecedence
+ 0001:000135A0       TrackSetControl
+ 0002:00003170       TrackSetCurrCol
+ 0002:00003184       TrackSetCurrRow
+ 0001:00013642       TrackSetScroll
+ 0001:00015B51       TrackSetScrollBarWndProc
+ 0001:00015C90       TrackSetWndProc
+ 0001:00016130       TrackTimeLeftWndProc
+ 0001:000161E0       TrackTimePlayedWndProc
+ 0002:00002C10       TrackUnknown
+ 0002:00009780       UnderText
+ 0002:000029BC       UserNameText
+ 0002:000030E8       VirtRowOffset
+ 0002:0000977C       VirtRows
+ 0001:00015A81       VolumeLeftWndProc
+ 0001:000159B3       VolumeRightWndProc
+ 0001:0001F7D0       wcstombs
+ 0001:0001BAA0       wctomb
+ 0000:00000000  Imp  WinAlarm             (PMWIN.701)
+ 0000:00000000  Imp  WinAssociateHelpInstance (HELPMGR.54)
+ 0000:00000000  Imp  WinBeginPaint        (PMWIN.703)
+ 0000:00000000  Imp  WinChangeSwitchEntry (PMSHAPI.123)
+ 0000:00000000  Imp  WinCreateDlg         (PMWIN.922)
+ 0000:00000000  Imp  WinCreateHelpInstance (HELPMGR.51)
+ 0000:00000000  Imp  WinCreateMsgQueue    (PMWIN.716)
+ 0000:00000000  Imp  WinCreateSwitchEntry (PMSHAPI.121)
+ 0000:00000000  Imp  WinDefDlgProc        (PMWIN.910)
+ 0000:00000000  Imp  WinDestroyAccelTable (PMWIN.723)
+ 0000:00000000  Imp  WinDestroyHelpInstance (HELPMGR.52)
+ 0000:00000000  Imp  WinDestroyMsgQueue   (PMWIN.726)
+ 0000:00000000  Imp  WinDestroyPointer    (PMWIN.727)
+ 0000:00000000  Imp  WinDestroyWindow     (PMWIN.728)
+ 0000:00000000  Imp  WinDismissDlg        (PMWIN.729)
+ 0000:00000000  Imp  WinDispatchMsg       (PMWIN.912)
+ 0000:00000000  Imp  WinDlgBox            (PMWIN.923)
+ 0000:00000000  Imp  WinDrawBorder        (PMWIN.731)
+ 0000:00000000  Imp  WinEnableWindow      (PMWIN.735)
+ 0000:00000000  Imp  WinEnableWindowUpdate (PMWIN.736)
+ 0000:00000000  Imp  WinEndPaint          (PMWIN.738)
+ 0000:00000000  Imp  WinGetMsg            (PMWIN.915)
+ 0000:00000000  Imp  WinInitialize        (PMWIN.763)
+ 0000:00000000  Imp  WinLoadAccelTable    (PMWIN.776)
+ 0000:00000000  Imp  WinLoadDlg           (PMWIN.924)
+ 0000:00000000  Imp  WinLoadMenu          (PMWIN.778)
+ 0000:00000000  Imp  WinLoadPointer       (PMWIN.780)
+ 0000:00000000  Imp  WinLoadString        (PMWIN.781)
+ 0000:00000000  Imp  WinMapWindowPoints   (PMWIN.788)
+ 0000:00000000  Imp  WinMessageBox        (PMWIN.789)
+ 0000:00000000  Imp  WinPeekMsg           (PMWIN.918)
+ 0000:00000000  Imp  WinPopupMenu         (PMWIN.937)
+ 0000:00000000  Imp  WinPostMsg           (PMWIN.919)
+ 0000:00000000  Imp  WinQueryAnchorBlock  (PMWIN.800)
+ 0000:00000000  Imp  WinQueryDlgItemText  (PMWIN.815)
+ 0000:00000000  Imp  WinQueryPointer      (PMWIN.821)
+ 0000:00000000  Imp  WinQuerySwitchEntry  (PMSHAPI.124)
+ 0000:00000000  Imp  WinQuerySysColor     (PMWIN.826)
+ 0000:00000000  Imp  WinQuerySysPointer   (PMWIN.828)
+ 0000:00000000  Imp  WinQuerySysValue     (PMWIN.829)
+ 0000:00000000  Imp  WinQueryWindowPos    (PMWIN.837)
+ 0000:00000000  Imp  WinQueryWindowRect   (PMWIN.840)
+ 0000:00000000  Imp  WinQueryWindowText   (PMWIN.841)
+ 0000:00000000  Imp  WinQueryWindowULong  (PMWIN.843)
+ 0000:00000000  Imp  WinRegisterGraphicButton (SW.14)
+ 0000:00000000  Imp  WinSendDlgItemMsg    (PMWIN.903)
+ 0000:00000000  Imp  WinSendMsg           (PMWIN.920)
+ 0000:00000000  Imp  WinSetAccelTable     (PMWIN.850)
+ 0000:00000000  Imp  WinSetActiveWindow   (PMWIN.851)
+ 0000:00000000  Imp  WinSetDlgItemText    (PMWIN.859)
+ 0000:00000000  Imp  WinSetFocus          (PMWIN.860)
+ 0000:00000000  Imp  WinSetMultWindowPos  (PMWIN.863)
+ 0000:00000000  Imp  WinSetOwner          (PMWIN.864)
+ 0000:00000000  Imp  WinSetPointer        (PMWIN.866)
+ 0000:00000000  Imp  WinSetWindowPos      (PMWIN.875)
+ 0000:00000000  Imp  WinSetWindowText     (PMWIN.877)
+ 0000:00000000  Imp  WinSetWindowULong    (PMWIN.878)
+ 0000:00000000  Imp  WinShowWindow        (PMWIN.883)
+ 0000:00000000  Imp  WinStartTimer        (PMWIN.884)
+ 0000:00000000  Imp  WinStopTimer         (PMWIN.885)
+ 0000:00000000  Imp  WinSubclassWindow    (PMWIN.929)
+ 0000:00000000  Imp  WinTerminate         (PMWIN.888)
+ 0002:00003140       WinTimerStarted
+ 0000:00000000  Imp  WinTrackRect         (PMWIN.890)
+ 0000:00000000  Imp  WinWindowFromID      (PMWIN.899)
+ 0002:00002D18       WrongRegText
+ 0001:0000B0D0       YesOrNo
+ 0002:00000644       _argc
+ 0002:00000648       _argv
+ 0001:00019BEC       _asciitld
+ 0001:00019CD0       _asciitod
+ 0001:00019DF4       _atofieee
+ 0001:0001A950       _atold
+ 0001:00018FDC       _beginthread
+ 0001:0001F680       _bit_test_set
+ 0001:0001BB74       _bufprint
+ 0001:00018AD8       _callback_opt_sys
+ 0001:0001925C       _CloseSem
+ 0001:0001DCB4       _cnvrt
+ 0001:0001E258       _convert
+ 0001:000191F0       _CreateSem
+ 0001:000188C0       _critlib_except
+ 0001:00018D28       _CrtGetLocalData
+ 0001:00018F9C       _CrtInitThread
+ 0001:00016BF0       _CRT_init
+ 0002:00001000       _crt_msg_handle
+ 0001:00017270       _CRT_term
+ 0002:00000DE0       _ctable
+ 0002:0000317C       _ctype
+ 0002:00000EE4       _ctypeModule
+ 0002:00000660       _daylight
+ 0002:00001260       _DBL_MAX
+ 0002:00001258       _DBL_MIN
+ 0002:00001298       _dneginfi
+ 0002:00001288       _dnegqnan
+ 0002:00001290       _dnegsnan
+ 0002:00001280       _dposinfi
+ 0002:00001270       _dposqnan
+ 0002:00001278       _dpossnan
+ 0002:00001D34       _edata
+ 0001:00019524       _edcGetMessage
+ 0002:00002658       _edcinit_fin
+ 0002:000099F0       _end
+ 0001:00019050       _endthread
+ 0002:00008D08       _environ
+ 0001:00019454       _errno
+ 0001:00018AB4       _Exception
+ 0001:0001875C       _exception_dllinit
+ 0001:0001878C       _exception_procinit
+ 0002:00000640       _exeentry
+ 0001:0001803C       _EXE_Exception
+ 0001:00018A94       _fcloseall_weak
+ 0001:0001E5D4       _fillb
+ 0002:000019A0       _firsteib
+ 0001:0001E81C       _Flush
+ 0001:0001E9D4       _flushb
+ 0002:000012B4       _fneginfi
+ 0002:000012AC       _fnegqnan
+ 0002:000012B0       _fnegsnan
+ 0002:000012A8       _fposinfi
+ 0002:000012A0       _fposqnan
+ 0002:000012A4       _fpossnan
+ 0001:00018A84       _fpreset
+ 0001:0001B9C8       _fprintfieee
+ 0001:0001BA08       _fprintf_ansi
+ 0001:00019AE0       _freeCtype
+ 0001:00018AB0       _freeCtype_weak
+ 0001:00018C4C       _FreeFCB
+ 0001:00018B2C       _freeLocale
+ 0001:00018AA8       _freeLocale_weak
+ 0001:0001F5DC       _freeThreadStorage
+ 0001:0001ECEC       _getcx
+ 0001:000187C0       _get_eib
+ 0001:00018AF0       _get_seglim
+ 0002:00002438       _have_freed
+ 0001:00017DAC       _heapmin
+ 0001:00017AC4       _heapmin_int
+ 0002:00001268       _HUGE_VAL
+ 0001:0001F02C       _ilog2
+ 0002:00001250       _infinity
+ 0001:00019AFC       _init_ctype
+ 0001:00018AAC       _init_ctype_weak
+ 0001:00018858       _input_excpt
+ 0001:0001F034       _internal_err
+ 0001:00019480       _itoa
+ 0002:00001D30       _lasteib
+ 0002:000012C2       _LDBL_MAX
+ 0002:000012B8       _LDBL_MIN
+ 0002:00001308       _ldneginfi
+ 0002:000012F4       _ldnegqnan
+ 0002:000012FE       _ldnegsnan
+ 0002:000012EA       _ldposinfi
+ 0002:000012D6       _ldposqnan
+ 0002:000012E0       _ldpossnan
+ 0002:000012CC       _LHUGE_VAL
+ 0001:000181E4       _Lib_excpt
+ 0002:00009878       _locale_initialized
+ 0001:00018B50       _localInit
+ 0001:0001F0EC       _ltoa
+ 0001:0001FBC8       _matherr
+ 0002:000009A0       _matherr_ptr
+ 0001:0001FBB4       _Math_Exception_Def
+ 0002:0000276C       _memory_sem
+ 0001:0001959C       _MesgServ
+ 0001:0001881C       _mig_eib_store
+ 0002:000096EC       _osmajor
+ 0002:00009744       _osminor
+ 0002:00000668       _osmode
+ 0002:00002448       _pBucketArr
+ 0002:0000065C       _PGLOBAL_PTR
+ 0002:00000BC8       _pg_c_locale
+ 0002:00000BCC       _pg_default_locale
+ 0002:00000A60       _pg_locale_info
+ 0002:00001318       _pospow1
+ 0002:00001598       _pospow2
+ 0001:00019548       _PrintErrMsg
+ 0001:0001F230       _readbSync
+ 0001:00018080       _recreate_exception
+ 0001:00018AE4       _Regen_exception
+ 0001:00019340       _ReleaseSem
+ 0001:000192B0       _RequestSem
+ 0001:0001F5D0       _rotl
+ 0001:00016F80       _setuparg
+ 0001:00017178       _setupenv
+ 0001:0001F59C       _set_crt_msg_handle
+ 0001:00017460       _split_chunk
+ 0001:0001BA38       _sprintfieee
+ 0001:0001BA74       _sprintf_ansi
+ 0001:0001D9B8       _sscanfieee
+ 0001:0001D9D8       _sscanf_ansi
+ 0001:00019D94       _strtodieee
+ 0001:0001801C       _terminate
+ 0002:0000994C       _TerminateAndDumpSem
+ 0001:00018ACC       _Test_and_reset
+ 0001:00016BA0       _test_handle
+ 0002:00000664       _timezone
+ 0002:00002FC4       _tmemory_sem
+ 0001:0001F934       _toint
+ 0002:00003A50       _tzname
+ 0001:0001F4A8       _ungetc
+ 0001:0001F558       _uwrite
+ 0001:0001B9B4       _wcputs
+ 0001:000179C8       _Weak_FreeListEntry
+ 0001:0001E220       _wfgetposMem
+ 0001:0001B970       _wfloatfmt
+ 0001:0001E210       _wfsetposMem
+ 0001:0001B9A0       _wgetche
+ 0001:0001E250       _wOpenMemory
+ 0001:0001E20C       _wreadbSyncMem
+ 0001:0001E24C       _wRemoveMem
+ 0001:0001E234       _wrewindMem
+ 0001:0001E218       _wSeekMem
+ 0001:0001E238       _wtellMem
+ 0001:0001B998       _wungetch
+ 0001:0001E208       _wuwriteMem
+ 0001:0001F190       _w_raise
+ 0001:00018A08       _w_Terminate_and_dump
+ 0001:0001FB0C       _XDosRead
+ 0001:0001883C       __Async_exception_flag
+ 0001:00019404       __broken_time_ptr
+ 0002:00000670       __char_set_type
+ 0001:00019464       __cppstore
+ 0001:000193F4       __cvt_buf_ptr
+ 0002:00003174       __c_local_ctype
+ 0002:0000066C       __decimal_point
+ 0001:0001AEBC       __dofmto
+ 0001:00019444       __doserrno
+ 0001:00019434       __dttm_ptr
+ 0001:00018350       __Exception
+ 0001:00019414       __flags
+ 0001:0001787C       __free
+ 0001:0001D6E8       __goscan
+ 0001:000193D4       __internal_buf_ptr
+ 0001:000193E4       __lcvt_buf_ptr
+ 0002:00000F34       __leapm
+ 0001:00017558       __malloc
+ 0002:00000FA4       __mleapm
+ 0002:00000F70       __mmonth
+ 0002:00000F00       __month
+ 0001:000193C4       __perror_msg_ptr
+ 0001:00019388       __random_seed
+ 0001:00016AE0       __RunExitList
+ 0001:0001882C       __Saved_return_address
+ 0001:00017260       __sctordtorInit
+ 0001:00017268       __sctordtorTerm
+ 0001:00019424       __strerror_msg_ptr
+ 0001:000193A4       __strtok_pos
+ 0001:000193B4       __tempname_ptr
+ 0001:0001935C       __threadid
+ 0001:00019398       __version
+ 0001:00017258       __wctordtorInit
+ 0001:0001725C       __wctordtorTerm
+
+  Address         Publics by Value
+
+ 0000:00000000  Imp  WinStopTimer         (PMWIN.885)
+ 0000:00000000  Imp  WinQueryWindowULong  (PMWIN.843)
+ 0000:00000000  Imp  WinQuerySwitchEntry  (PMSHAPI.124)
+ 0000:00000000  Imp  WinCreateSwitchEntry (PMSHAPI.121)
+ 0000:00000000  Imp  WinEnableWindowUpdate (PMWIN.736)
+ 0000:00000000  Imp  WinChangeSwitchEntry (PMSHAPI.123)
+ 0000:00000000  Imp  WinCreateHelpInstance (HELPMGR.51)
+ 0000:00000000  Imp  WinQueryDlgItemText  (PMWIN.815)
+ 0000:00000000  Imp  WinPostMsg           (PMWIN.919)
+ 0000:00000000  Imp  DOS32IQUERYMESSAGECP (MSG.8)
+ 0000:00000000  Imp  WinDestroyAccelTable (PMWIN.723)
+ 0000:00000000  Imp  PrfQueryProfileSize  (PMSHAPI.101)
+ 0000:00000000  Imp  WinSetMultWindowPos  (PMWIN.863)
+ 0000:00000000  Imp  DosGetNamedSharedMem (DOSCALLS.301)
+ 0000:00000000  Imp  GpiResetPS           (PMGPI.498)
+ 0000:00000000  Imp  WinDefDlgProc        (PMWIN.910)
+ 0000:00000000  Imp  WinPeekMsg           (PMWIN.918)
+ 0000:00000000  Imp  PrfWriteProfileData  (PMSHAPI.118)
+ 0000:00000000  Imp  PrfQueryProfileString (PMSHAPI.115)
+ 0000:00000000  Imp  DosFreeMem           (DOSCALLS.304)
+ 0000:00000000  Imp  PrfWriteProfileString (PMSHAPI.116)
+ 0000:00000000  Imp  PrfQueryProfileData  (PMSHAPI.117)
+ 0000:00000000  Imp  WinSendMsg           (PMWIN.920)
+ 0000:00000000  Imp  WinQueryAnchorBlock  (PMWIN.800)
+ 0000:00000000  Imp  WinInitialize        (PMWIN.763)
+ 0000:00000000  Imp  WinLoadDlg           (PMWIN.924)
+ 0000:00000000  Imp  DOS32TRUEGETMESSAGE  (MSG.6)
+ 0000:00000000  Imp  WinGetMsg            (PMWIN.915)
+ 0000:00000000  Imp  GpiSavePS            (PMGPI.501)
+ 0000:00000000  Imp  WinDrawBorder        (PMWIN.731)
+ 0000:00000000  Imp  GpiCreateLogColorTable (PMGPI.592)
+ 0000:00000000  Imp  DosSetFilePtr        (DOSCALLS.256)
+ 0000:00000000  Imp  WinDlgBox            (PMWIN.923)
+ 0000:00000000  Imp  DosWrite             (DOSCALLS.282)
+ 0000:00000000  Imp  WinTerminate         (PMWIN.888)
+ 0000:00000000  Imp  DOSREQUESTMUTEXSEM   (DOSCALLS.334)
+ 0000:00000000  Imp  WinQueryWindowText   (PMWIN.841)
+ 0000:00000000  Imp  WinDestroyMsgQueue   (PMWIN.726)
+ 0000:00000000  Imp  WinQuerySysPointer   (PMWIN.828)
+ 0000:00000000  Imp  GpiRestorePS         (PMGPI.499)
+ 0000:00000000  Imp  WinAlarm             (PMWIN.701)
+ 0000:00000000  Imp  DosExit              (DOSCALLS.234)
+ 0000:00000000  Imp  DosUnwindException   (DOSCALLS.357)
+ 0000:00000000  Imp  WinQueryWindowRect   (PMWIN.840)
+ 0000:00000000  Imp  DosSetExceptionHandler (DOSCALLS.354)
+ 0000:00000000  Imp  WinMapWindowPoints   (PMWIN.788)
+ 0000:00000000  Imp  WinSetActiveWindow   (PMWIN.851)
+ 0000:00000000  Imp  DOSRELEASEMUTEXSEM   (DOSCALLS.335)
+ 0000:00000000  Imp  DosRead              (DOSCALLS.281)
+ 0000:00000000  Imp  WinMessageBox        (PMWIN.789)
+ 0000:00000000  Imp  WinDismissDlg        (PMWIN.729)
+ 0000:00000000  Imp  WinDestroyHelpInstance (HELPMGR.52)
+ 0000:00000000  Imp  DosExitList          (DOSCALLS.296)
+ 0000:00000000  Imp  WinPopupMenu         (PMWIN.937)
+ 0000:00000000  Imp  WinDestroyPointer    (PMWIN.727)
+ 0000:00000000  Imp  WinQueryWindowPos    (PMWIN.837)
+ 0000:00000000  Imp  WinTrackRect         (PMWIN.890)
+ 0000:00000000  Imp  WinSetWindowULong    (PMWIN.878)
+ 0000:00000000  Imp  DosCreateMutexSem    (DOSCALLS.331)
+ 0000:00000000  Imp  DosCreateEventSem    (DOSCALLS.324)
+ 0000:00000000  Imp  DosRaiseException    (DOSCALLS.356)
+ 0000:00000000  Imp  WinQuerySysValue     (PMWIN.829)
+ 0000:00000000  Imp  WinCreateDlg         (PMWIN.922)
+ 0000:00000000  Imp  WinDestroyWindow     (PMWIN.728)
+ 0000:00000000  Imp  WinSetDlgItemText    (PMWIN.859)
+ 0000:00000000  Imp  WinLoadMenu          (PMWIN.778)
+ 0000:00000000  Imp  WinSetWindowText     (PMWIN.877)
+ 0000:00000000  Imp  WinQuerySysColor     (PMWIN.826)
+ 0000:00000000  Imp  mciGetErrorString    (MDM.3)
+ 0000:00000000  Imp  DosCloseMutexSem     (DOSCALLS.333)
+ 0000:00000000  Imp  WinSubclassWindow    (PMWIN.929)
+ 0000:00000000  Imp  WinCreateMsgQueue    (PMWIN.716)
+ 0000:00000000  Imp  DosAllocSharedMem    (DOSCALLS.300)
+ 0000:00000000  Imp  DosQueryCtryInfo     (NLS.5)
+ 0000:00000000  Imp  WinSendDlgItemMsg    (PMWIN.903)
+ 0000:00000000  Imp  DosQuerySysInfo      (DOSCALLS.348)
+ 0000:00000000  Imp  WinSetWindowPos      (PMWIN.875)
+ 0000:00000000  Imp  DosQueryPathInfo     (DOSCALLS.223)
+ 0000:00000000  Imp  DosCloseEventSem     (DOSCALLS.326)
+ 0000:00000000  Imp  DOSPOSTEVENTSEM      (DOSCALLS.328)
+ 0000:00000000  Imp  WinQueryPointer      (PMWIN.821)
+ 0000:00000000  Imp  DosAllocMem          (DOSCALLS.299)
+ 0000:00000000  Imp  DOSWAITEVENTSEM      (DOSCALLS.329)
+ 0000:00000000  Imp  DOSRESETEVENTSEM     (DOSCALLS.327)
+ 0000:00000000  Imp  DosQueryDBCSEnv      (NLS.6)
+ 0000:00000000  Imp  DosGetInfoBlocks     (DOSCALLS.312)
+ 0000:00000000  Imp  PrfCloseProfile      (PMSHAPI.103)
+ 0000:00000000  Imp  WinLoadAccelTable    (PMWIN.776)
+ 0000:00000000  Imp  WinEnableWindow      (PMWIN.735)
+ 0000:00000000  Imp  DosSetSignalExceptionFocus (DOSCALLS.378)
+ 0000:00000000  Imp  WinSetAccelTable     (PMWIN.850)
+ 0000:00000000  Imp  WinWindowFromID      (PMWIN.899)
+ 0000:00000000  Imp  WinEndPaint          (PMWIN.738)
+ 0000:00000000  Imp  WinBeginPaint        (PMWIN.703)
+ 0000:00000000  Imp  WinSetFocus          (PMWIN.860)
+ 0000:00000000  Imp  DosCreateThread      (DOSCALLS.311)
+ 0000:00000000  Imp  DosGetResource       (DOSCALLS.352)
+ 0000:00000000  Imp  WinAssociateHelpInstance (HELPMGR.54)
+ 0000:00000000  Imp  WinRegisterGraphicButton (SW.14)
+ 0000:00000000  Imp  DosGetDateTime       (DOSCALLS.230)
+ 0000:00000000  Imp  WinDispatchMsg       (PMWIN.912)
+ 0000:00000000  Imp  DosUnsetExceptionHandler (DOSCALLS.355)
+ 0000:00000000  Imp  WinLoadPointer       (PMWIN.780)
+ 0000:00000000  Imp  PrfOpenProfile       (PMSHAPI.102)
+ 0000:00000000  Imp  mciSendCommand       (MDM.1)
+ 0000:00000000  Imp  WinSetOwner          (PMWIN.864)
+ 0000:00000000  Imp  WinLoadString        (PMWIN.781)
+ 0000:00000000  Imp  DosQueryHType        (DOSCALLS.224)
+ 0000:00000000  Imp  WinSetPointer        (PMWIN.866)
+ 0000:00000000  Imp  WinShowWindow        (PMWIN.883)
+ 0000:00000000  Imp  WinStartTimer        (PMWIN.884)
+ 0001:00000000       BGBoxProc
+ 0001:000000C0       FGBoxProc
+ 0001:00000180       TEEntryTrackWndProc
+ 0001:00000330       TitleEditorDlgProc
+ 0001:00002A40       CmdInfo
+ 0001:00002B12       CmdOptions
+ 0001:00002BA1       CmdProgramPlayList
+ 0001:00002C72       CmdChangeTitles
+ 0001:00002D90       EnablePlayControls
+ 0001:00002FB3       EnableEject
+ 0001:00003020       InitButtons
+ 0001:00003226       IsHelpButton
+ 0001:000032C2       InfoDlgProc
+ 0001:00004CE0       ProgramEditorDlgProc
+ 0001:00008ED0       CDLastErrStr
+ 0001:00008ED6       CDMuteVolume
+ 0001:00008F60       CDQueryVolume
+ 0001:00008FE0       CDSetVolume
+ 0001:000090E8       CDCloseDevice
+ 0001:00009117       CDUnlock
+ 0001:00009160       CDLock
+ 0001:000091A7       CDEjectImm
+ 0001:000091F0       CDSeekImm
+ 0001:00009238       CDEject
+ 0001:00009280       CDSeek
+ 0001:000092C3       CDStop
+ 0001:00009307       CDResume
+ 0001:00009350       CDPause
+ 0001:00009394       CDPlay
+ 0001:000093E3       CDGetRawPosition
+ 0001:00009440       CDGetPosition
+ 0001:000094F1       CDDeleteFromPlayList
+ 0001:00009561       CDInsertInPlayList
+ 0001:00009632       CDFlushPlayList
+ 0001:00009650       CDResetPlayList
+ 0001:000096C4       CDGetDefPlayList
+ 0001:000096D0       CDGetContents
+ 0001:00009C10       CDGetStatus
+ 0001:00009C72       CDDriverInfo
+ 0001:00009F20       CDSetCuePointOff
+ 0001:00009F70       CDSetCuePoint
+ 0001:00009FB7       CDSetAdviseOff
+ 0001:0000A003       CDSetAdviseRate
+ 0001:0000A050       CDInitDevice
+ 0001:0000A0E5       CDOpenDevice
+ 0001:0000A188       CDSetConnector
+ 0001:0000A228       CDQueryDevName
+ 0001:0000A290       LoadResStrings
+ 0001:0000AB50       PopupFromKey
+ 0001:0000ABA2       PopupFromClick
+ 0001:0000ABD5       EnableMenuItemControl
+ 0001:0000AC11       InitMenus
+ 0001:0000B074       AreYouSure
+ 0001:0000B0D0       YesOrNo
+ 0001:0000B117       SharewareBox
+ 0001:0000B250       CDFatalError
+ 0001:0000B280       CDError
+ 0001:0000B290       HardwareSettingsDlgProc
+ 0001:0000B5A0       OutputSettingsDlgProc
+ 0001:0000B8E0       SaveSettingsDlgProc
+ 0001:0000BCD0       PlaySettingsDlgProc
+ 0001:0000C0D4       DisplaySettingsDlgProc
+ 0001:0000C4A0       TimeSettingsDlgProc
+ 0001:0000C9E8       SettingsDlgProc
+ 0001:0000D3B4       RegisterDlgProc
+ 0001:0000D4A0       AboutDlgProc
+ 0001:0000D730       SetWaitPointer
+ 0001:0000D787       InitMainDlg
+ 0001:0000DA70       InitMousePointers
+ 0001:0000DA90       main
+ 0001:0000DD96       MainDlgProc
+ 0001:00010E60       InitPosition
+ 0001:00010F00       EnablePosition
+ 0001:00011016       PosPosition
+ 0001:00011460       CDPrfQueryRegistered
+ 0001:00011540       CDPrfSetRegData
+ 0001:000115B7       CDPrfTestRegData
+ 0001:00011660       CDPrfSetPosition
+ 0001:00011690       CDPrfQueryPosition
+ 0001:000116F1       CDPrfSetPlayList
+ 0001:00011770       CDPrfQueryPlayList
+ 0001:000117E0       CDPrfSetTrackInfo
+ 0001:00011870       CDPrfQueryTrackInfo
+ 0001:000118F0       CDPrfSetTrackTitle
+ 0001:000119F6       CDPrfQueryTrackTitle
+ 0001:00011A72       CDPrfSetCDInfo
+ 0001:00011AD4       CDPrfQueryCDInfo
+ 0001:00011B90       CDPrfSetCDTitle
+ 0001:00011C16       CDPrfQueryCDTitle
+ 0001:00011C64       CDPrfSetContents
+ 0001:00011C94       CDPrfQueryContents
+ 0001:00011D00       CDPrfDeleteAccess
+ 0001:00011E30       CDPrfReleaseAccess
+ 0001:00011EC1       CDPrfQueryAccess
+ 0001:00012340       CDPrfClose
+ 0001:00012540       CDPrfLoadWindowPos
+ 0001:00012640       CDPrfSaveWindowPos
+ 0001:00012780       CDPrfLoadVolume
+ 0001:00012820       CDPrfSaveVolume
+ 0001:00012864       CDPrfInitOptions
+ 0001:00012980       CDPrfOpen
+ 0001:00012A60       CDPrfSetOption
+ 0001:00012C50       CDPrfGetOption
+ 0001:00012E15       CDPrfCopyAccess
+ 0001:00012E58       CDPrfQueryAccessByTitle
+ 0001:00013180       TitleSelectControl
+ 0001:000131D0       PosTitleSelect
+ 0001:00013205       EnableTitleSelect
+ 0001:00013260       InitTitleSelect
+ 0001:00013293       ChangeTitle
+ 0001:00013380       SetupTitleSelect
+ 0001:000135A0       TrackSetControl
+ 0001:00013642       TrackSetScroll
+ 0001:000138F0       PosTrackSet
+ 0001:000138F6       SetupTrackSet
+ 0001:000139A0       RedrawTrackSet
+ 0001:00013AB0       EnableTrackSet
+ 0001:00013D91       InitTrackSet
+ 0001:00013ED0       TimeSliderControl
+ 0001:00013FD3       PosTimeSlider
+ 0001:00014051       SetupTimeSlider
+ 0001:000141A8       EnableTimeSlider
+ 0001:00014281       InitTimeSlider
+ 0001:00014350       ChannelSwap
+ 0001:00014376       ChannelIndependent
+ 0001:000143A0       MuteVolume
+ 0001:00014460       ResetVolume
+ 0001:00014480       InitVolume
+ 0001:000145A8       SetRightVolume
+ 0001:000146F2       SetLeftVolume
+ 0001:00014842       EnableVolume
+ 0001:00014AD0       HelpWndProc
+ 0001:00014BD3       RepeatWndProc
+ 0001:00014C84       EjectWndProc
+ 0001:00014D57       StopWndProc
+ 0001:00014E08       PauseWndProc
+ 0001:00014EB8       PlayWndProc
+ 0001:00014F68       ForwardWndProc
+ 0001:00015018       BackwardWndProc
+ 0001:000150C8       TimeSliderWndProc
+ 0001:00015195       TitleSelectWndProc
+ 0001:00015244       TextTitleWndProc
+ 0001:000152F4       OptionsWndProc
+ 0001:000153F7       InfoWindowWndProc
+ 0001:000154F7       ProgramTitlesWndProc
+ 0001:000155F7       ChangeTitlesWndProc
+ 0001:000156F7       MuteWndProc
+ 0001:000157A8       ChannelSwapWndProc
+ 0001:000158B0       ChannelIndependentWndProc
+ 0001:000159B3       VolumeRightWndProc
+ 0001:00015A81       VolumeLeftWndProc
+ 0001:00015B51       TrackSetScrollBarWndProc
+ 0001:00015C90       TrackSetWndProc
+ 0001:00015FD1       CurrTrackWndProc
+ 0001:00016080       TextCurrTrackWndProc
+ 0001:00016130       TrackTimeLeftWndProc
+ 0001:000161E0       TrackTimePlayedWndProc
+ 0001:00016290       TextTrackWndProc
+ 0001:00016340       CDTimeLeftWndProc
+ 0001:000163F0       CDTimePlayedWndProc
+ 0001:000164A0       TextCDWndProc
+ 0001:00016550       InitSubclasses
+ 0001:00016810       TrackFrameRestricted
+ 0001:00016958       MakeMainWindow
+ 0001:00016A40       SetWindowTitle
+ 0001:00016AE0       __RunExitList
+ 0001:00016BA0       _test_handle
+ 0001:00016BF0       _CRT_init
+ 0001:00016F80       _setuparg
+ 0001:00017178       _setupenv
+ 0001:00017258       __wctordtorInit
+ 0001:0001725C       __wctordtorTerm
+ 0001:00017260       __sctordtorInit
+ 0001:00017268       __sctordtorTerm
+ 0001:00017270       _CRT_term
+ 0001:00017460       _split_chunk
+ 0001:00017558       __malloc
+ 0001:000177D0       malloc
+ 0001:0001787C       __free
+ 0001:00017938       free
+ 0001:000179C8       _Weak_FreeListEntry
+ 0001:00017AC4       _heapmin_int
+ 0001:00017DAC       _heapmin
+ 0001:00017E60       calloc
+ 0001:00017F3C       exit
+ 0001:0001801C       _terminate
+ 0001:0001803C       _EXE_Exception
+ 0001:00018080       _recreate_exception
+ 0001:000181E4       _Lib_excpt
+ 0001:00018350       __Exception
+ 0001:0001875C       _exception_dllinit
+ 0001:0001878C       _exception_procinit
+ 0001:000187C0       _get_eib
+ 0001:0001881C       _mig_eib_store
+ 0001:0001882C       __Saved_return_address
+ 0001:0001883C       __Async_exception_flag
+ 0001:00018858       _input_excpt
+ 0001:000188C0       _critlib_except
+ 0001:00018A08       _w_Terminate_and_dump
+ 0001:00018A84       _fpreset
+ 0001:00018A94       _fcloseall_weak
+ 0001:00018AA8       _freeLocale_weak
+ 0001:00018AAC       _init_ctype_weak
+ 0001:00018AB0       _freeCtype_weak
+ 0001:00018AB4       _Exception
+ 0001:00018ACC       _Test_and_reset
+ 0001:00018AD8       _callback_opt_sys
+ 0001:00018AE4       _Regen_exception
+ 0001:00018AF0       _get_seglim
+ 0001:00018B2C       _freeLocale
+ 0001:00018B50       _localInit
+ 0001:00018C4C       _FreeFCB
+ 0001:00018D28       _CrtGetLocalData
+ 0001:00018F9C       _CrtInitThread
+ 0001:00018FDC       _beginthread
+ 0001:00019050       _endthread
+ 0001:000191F0       _CreateSem
+ 0001:0001925C       _CloseSem
+ 0001:000192B0       _RequestSem
+ 0001:00019340       _ReleaseSem
+ 0001:0001935C       __threadid
+ 0001:00019388       __random_seed
+ 0001:00019398       __version
+ 0001:000193A4       __strtok_pos
+ 0001:000193B4       __tempname_ptr
+ 0001:000193C4       __perror_msg_ptr
+ 0001:000193D4       __internal_buf_ptr
+ 0001:000193E4       __lcvt_buf_ptr
+ 0001:000193F4       __cvt_buf_ptr
+ 0001:00019404       __broken_time_ptr
+ 0001:00019414       __flags
+ 0001:00019424       __strerror_msg_ptr
+ 0001:00019434       __dttm_ptr
+ 0001:00019444       __doserrno
+ 0001:00019454       _errno
+ 0001:00019464       __cppstore
+ 0001:00019480       _itoa
+ 0001:00019524       _edcGetMessage
+ 0001:00019548       _PrintErrMsg
+ 0001:0001959C       _MesgServ
+ 0001:000197A0       strcspn
+ 0001:000197DC       stricmp
+ 0001:00019878       strspn
+ 0001:000198B4       strtol
+ 0001:000199E4       strtoul
+ 0001:00019AE0       _freeCtype
+ 0001:00019AFC       _init_ctype
+ 0001:00019BEC       _asciitld
+ 0001:00019CD0       _asciitod
+ 0001:00019D94       _strtodieee
+ 0001:00019DC4       strtod
+ 0001:00019DF4       _atofieee
+ 0001:0001A2CC       atof
+ 0001:0001A2F4       strnicmp
+ 0001:0001A3A0       atoi
+ 0001:0001A470       strtold
+ 0001:0001A950       _atold
+ 0001:0001AEBC       __dofmto
+ 0001:0001B970       _wfloatfmt
+ 0001:0001B998       _wungetch
+ 0001:0001B9A0       _wgetche
+ 0001:0001B9B4       _wcputs
+ 0001:0001B9C8       _fprintfieee
+ 0001:0001BA08       _fprintf_ansi
+ 0001:0001BA38       _sprintfieee
+ 0001:0001BA74       _sprintf_ansi
+ 0001:0001BAA0       wctomb
+ 0001:0001BB74       _bufprint
+ 0001:0001D6E8       __goscan
+ 0001:0001D9B8       _sscanfieee
+ 0001:0001D9D8       _sscanf_ansi
+ 0001:0001DCB4       _cnvrt
+ 0001:0001DF08       mktime
+ 0001:0001E180       time
+ 0001:0001E208       _wuwriteMem
+ 0001:0001E20C       _wreadbSyncMem
+ 0001:0001E210       _wfsetposMem
+ 0001:0001E218       _wSeekMem
+ 0001:0001E220       _wfgetposMem
+ 0001:0001E234       _wrewindMem
+ 0001:0001E238       _wtellMem
+ 0001:0001E24C       _wRemoveMem
+ 0001:0001E250       _wOpenMemory
+ 0001:0001E258       _convert
+ 0001:0001E478       fflush
+ 0001:0001E5D4       _fillb
+ 0001:0001E81C       _Flush
+ 0001:0001E9D4       _flushb
+ 0001:0001ECEC       _getcx
+ 0001:0001EE9C       getenv
+ 0001:0001F02C       _ilog2
+ 0001:0001F034       _internal_err
+ 0001:0001F088       longjmp
+ 0001:0001F0EC       _ltoa
+ 0001:0001F190       _w_raise
+ 0001:0001F198       rand
+ 0001:0001F1D4       setjmp
+ 0001:0001F210       srand
+ 0001:0001F230       _readbSync
+ 0001:0001F4A8       _ungetc
+ 0001:0001F558       _uwrite
+ 0001:0001F59C       _set_crt_msg_handle
+ 0001:0001F5D0       _rotl
+ 0001:0001F5DC       _freeThreadStorage
+ 0001:0001F680       _bit_test_set
+ 0001:0001F694       mbtowc
+ 0001:0001F7D0       wcstombs
+ 0001:0001F934       _toint
+ 0001:0001FB0C       _XDosRead
+ 0001:0001FBB4       _Math_Exception_Def
+ 0001:0001FBC8       _matherr
+ 0001:0001FBDC       sig32
+ 0001:0001FBEE       DOS32GETMESSAGE
+ 0001:0001FBEE       DosGetMessage
+ 0002:00000060       TimeSeparator
+ 0002:00000064       TimeRefreshRate
+ 0002:00000068       BackwardThreshold
+ 0002:0000006C       AnimationOn
+ 0002:00000070       AnimationRate
+ 0002:00000074       ListBoxAnimation
+ 0002:00000078       OutputHeadphones
+ 0002:0000007C       OutputSoundcard
+ 0002:00000080       DefaultDeviceName
+ 0002:00000088       TrackNumberPrecedence
+ 0002:000000B0       CopyRightString
+ 0002:000000D4       SharedMemName
+ 0002:000000EC       Status
+ 0002:00000640       _exeentry
+ 0002:00000644       _argc
+ 0002:00000648       _argv
+ 0002:00000650       stdin
+ 0002:00000654       stdout
+ 0002:00000658       stderr
+ 0002:0000065C       _PGLOBAL_PTR
+ 0002:00000660       _daylight
+ 0002:00000664       _timezone
+ 0002:00000668       _osmode
+ 0002:0000066C       __decimal_point
+ 0002:00000670       __char_set_type
+ 0002:000009A0       _matherr_ptr
+ 0002:00000A60       _pg_locale_info
+ 0002:00000BC8       _pg_c_locale
+ 0002:00000BCC       _pg_default_locale
+ 0002:00000DE0       _ctable
+ 0002:00000EE4       _ctypeModule
+ 0002:00000F00       __month
+ 0002:00000F34       __leapm
+ 0002:00000F70       __mmonth
+ 0002:00000FA4       __mleapm
+ 0002:00001000       _crt_msg_handle
+ 0002:00001250       _infinity
+ 0002:00001258       _DBL_MIN
+ 0002:00001260       _DBL_MAX
+ 0002:00001268       _HUGE_VAL
+ 0002:00001270       _dposqnan
+ 0002:00001278       _dpossnan
+ 0002:00001280       _dposinfi
+ 0002:00001288       _dnegqnan
+ 0002:00001290       _dnegsnan
+ 0002:00001298       _dneginfi
+ 0002:000012A0       _fposqnan
+ 0002:000012A4       _fpossnan
+ 0002:000012A8       _fposinfi
+ 0002:000012AC       _fnegqnan
+ 0002:000012B0       _fnegsnan
+ 0002:000012B4       _fneginfi
+ 0002:000012B8       _LDBL_MIN
+ 0002:000012C2       _LDBL_MAX
+ 0002:000012CC       _LHUGE_VAL
+ 0002:000012D6       _ldposqnan
+ 0002:000012E0       _ldpossnan
+ 0002:000012EA       _ldposinfi
+ 0002:000012F4       _ldnegqnan
+ 0002:000012FE       _ldnegsnan
+ 0002:00001308       _ldneginfi
+ 0002:00001318       _pospow1
+ 0002:00001598       _pospow2
+ 0002:000019A0       _firsteib
+ 0002:00001D30       _lasteib
+ 0002:00001D34       MuteOnText
+ 0002:00001D34       _edata
+ 0002:00001D54       TitleEditorInProcess
+ 0002:00001D58       hwndTrackSetScrollBar
+ 0002:00001D5C       @BSSD:\C\CDPLAYER\SRC\CDPLAYER.C
+ 0002:0000216C       @BSSD:\C\CDPLAYER\SRC\CDDEVICE.C
+ 0002:0000226C       @BSSD:\C\CDPLAYER\SRC\CDTSLIDE.C
+ 0002:00002274       @BSSD:\C\CDPLAYER\SRC\CDVOLUME.C
+ 0002:00002288       OldChannelSwapWndProc
+ 0002:0000228C       OldTitleSelectWndProc
+ 0002:00002290       OldVolumeRightWndProc
+ 0002:00002294       @BSSGOSCAN.C
+ 0002:000022A4       @BSSD:\C\CDPLAYER\SRC\CDTITLE.C
+ 0002:000023EC       hwndChannelIndependent
+ 0002:000023F0       @BSSATOLD.C
+ 0002:00002410       OldCDTimePlayedWndProc
+ 0002:00002414       OldChangeTitlesWndProc
+ 0002:00002418       IniFileName
+ 0002:00002438       _have_freed
+ 0002:0000243C       OldTEEntryTrackWndProc
+ 0002:00002440       CurrModalID
+ 0002:00002444       SeekInPause
+ 0002:00002448       _pBucketArr
+ 0002:00002488       SettingsDlg
+ 0002:0000248C       ProgramEditorInProcess
+ 0002:00002490       PageOneOfOne
+ 0002:000024D0       ProgramSave
+ 0002:00002510       TitleAccess
+ 0002:00002514       TabAnimation
+ 0002:00002554       ProgramPath
+ 0002:00002658       _edcinit_fin
+ 0002:0000265C       DlgAccelTable
+ 0002:00002660       hwndBackward
+ 0002:00002664       hwndForward
+ 0002:00002668       TEChangeText
+ 0002:000026A8       hwndMainHelp
+ 0002:000026AC       hwndTrackSet
+ 0002:000026B0       OldBGBoxProc
+ 0002:000026B4       NoDeviceText
+ 0002:000026D4       OldFGBoxProc
+ 0002:000026D8       TimeUnknown
+ 0002:000026E4       CDDeleteText
+ 0002:00002744       ControlMenu
+ 0002:00002748       SaveMarkers
+ 0002:0000274C       LibraryText
+ 0002:0000276C       _memory_sem
+ 0002:00002778       MuteOffText
+ 0002:00002798       SettingsMenu
+ 0002:0000279C       RightRegText
+ 0002:0000299C       ControlText
+ 0002:000029BC       UserNameText
+ 0002:000029FC       @BSSEDCINIT.C
+ 0002:00002A0C       SharewareText
+ 0002:00002C0C       hwndOptions
+ 0002:00002C10       TrackUnknown
+ 0002:00002C14       OutputExtAmp
+ 0002:00002C18       ApplKillText
+ 0002:00002D18       WrongRegText
+ 0002:00002F18       SettingsText
+ 0002:00002F38       SavePosition
+ 0002:00002F3C       InfoInProcess
+ 0002:00002F40       TabOutputDest
+ 0002:00002F80       TELibraryText
+ 0002:00002FC0       LockWhilePlay
+ 0002:00002FC4       _tmemory_sem
+ 0002:00002FD0       DeviceErrText
+ 0002:000030D0       @BSSPRTEMSG.C
+ 0002:000030D4       hwndCurrTrack
+ 0002:000030D8       hwndTextTrack
+ 0002:000030DC       OldTrackTimeLeftWndProc
+ 0002:000030E0       SaveWindowPos
+ 0002:000030E4       hwndTextTitle
+ 0002:000030E8       VirtRowOffset
+ 0002:000030EC       @BSSN_EXCEPT.C
+ 0002:000030F8       OldProgramTitlesWndProc
+ 0002:000030FC       OldMuteWndProc
+ 0002:00003100       OldHelpWndProc
+ 0002:00003104       hab
+ 0002:00003108       OldTextCurrTrackWndProc
+ 0002:0000310C       OldPlayWndProc
+ 0002:00003110       OldStopWndProc
+ 0002:00003114       TitleEditorDlg
+ 0002:00003118       hwndTimeSlider
+ 0002:0000311C       hwndCDTimeLeft
+ 0002:00003120       hwndInfoWindow
+ 0002:00003124       hwndVolumeLeft
+ 0002:00003128       CurrModalOwner
+ 0002:0000312C       hmq
+ 0002:00003130       OldTrackTimePlayedWndProc
+ 0002:00003134       Busy
+ 0002:00003138       DevID
+ 0002:0000313C       OldEjectWndProc
+ 0002:00003140       WinTimerStarted
+ 0002:00003144       hwndChannelSwap
+ 0002:00003148       CDNone
+ 0002:00003168       OldPauseWndProc
+ 0002:0000316C       ModalProcessing
+ 0002:00003170       TrackSetCurrCol
+ 0002:00003174       __c_local_ctype
+ 0002:00003178       hwndChangeTitles
+ 0002:0000317C       _ctype
+ 0002:00003180       hwndTitleSelect
+ 0002:00003184       TrackSetCurrRow
+ 0002:00003188       OldRepeatWndProc
+ 0002:0000318C       hwndCDTimePlayed
+ 0002:00003190       hwndVolumeRight
+ 0002:00003194       ProgramEditorDlg
+ 0002:00003198       TimeSliderDragged
+ 0002:0000319C       RegisteredForText
+ 0002:000031BC       SettingsDlgHidden
+ 0002:000031C0       OldTextCDWndProc
+ 0002:000031C4       TitleEditorHidden
+ 0002:000031C8       hwndTrackTimeLeft
+ 0002:000031CC       hwndProgramTitles
+ 0002:000031D0       OldOptionsWndProc
+ 0002:000031D4       OldForwardWndProc
+ 0002:000031D8       hwndTextCurrTrack
+ 0002:000031DC       OldTrackSetScrollBarWndProc
+ 0002:000031E0       OldBackwardWndProc
+ 0002:000031E4       OldTrackSetWndProc
+ 0002:000031E8       TabSave
+ 0002:00003228       InfoDlg
+ 0002:0000322C       OldChannelIndependentWndProc
+ 0002:00003230       hwndDlg
+ 0002:00003234       MainMenu
+ 0002:00003238       hSwitch
+ 0002:0000323C       HelpMenu
+ 0002:00003240       hwndPlay
+ 0002:00003244       PlayList
+ 0002:00003A50       _tzname
+ 0002:00003A58       hwndHelp
+ 0002:00003A5C       TitleSep
+ 0002:00003A64       hptrWait
+ 0002:00003A68       @BSSD:\C\CDPLAYER\SRC\CDPRF.C
+ 0002:0000447C       @BSSD:\C\CDPLAYER\SRC\CDMSG.C
+ 0002:0000487C       HelpText
+ 0002:0000489C       hptrIcon
+ 0002:000048A0       @BSSD:\C\CDPLAYER\SRC\CDCTL.C
+ 0002:00008D08       _environ
+ 0002:00008D0C       TabDevice
+ 0002:00008D4C       Contents
+ 0002:000096D8       Position
+ 0002:000096EC       _osmajor
+ 0002:000096F0       NoneText
+ 0002:00009700       hwndStop
+ 0002:00009704       @BSSD:\C\CDPLAYER\SRC\CDPOS.C
+ 0002:00009744       _osminor
+ 0002:00009748       hwndMute
+ 0002:0000974C       CDNoAudio
+ 0002:0000976C       RegIDText
+ 0002:0000977C       VirtRows
+ 0002:00009780       UnderText
+ 0002:000097A0       hwndEject
+ 0002:000097A4       AboutText
+ 0002:000097C4       TabOutput
+ 0002:00009804       HelpTitle
+ 0002:00009834       SliderSet
+ 0002:00009838       AutoStart
+ 0002:0000983C       hwndPause
+ 0002:00009840       ApplTitle
+ 0002:00009860       InfoHidden
+ 0002:00009864       OldCurrTrackWndProc
+ 0002:00009868       @BSSATOF.C
+ 0002:00009878       _locale_initialized
+ 0002:0000987C       OldTextTrackWndProc
+ 0002:00009880       Registered
+ 0002:00009884       hwndTrackTimePlayed
+ 0002:00009888       ChangeText
+ 0002:000098A8       DeviceName
+ 0002:000098C8       TabDisplay
+ 0002:00009908       DriverInfo
+ 0002:00009924       ProgramEditorHidden
+ 0002:00009928       OldTextTitleWndProc
+ 0002:0000992C       CDUntitled
+ 0002:0000994C       _TerminateAndDumpSem
+ 0002:00009958       DeleteText
+ 0002:00009978       OldTimeSliderWndProc
+ 0002:0000997C       PlayerText
+ 0002:0000999C       SaveVolume
+ 0002:000099A0       hwndRepeat
+ 0002:000099A4       TimeFormat
+ 0002:000099A8       hwndTextCD
+ 0002:000099AC       OldCDTimeLeftWndProc
+ 0002:000099B0       AutoRepeat
+ 0002:000099B4       OldInfoWindowWndProc
+ 0002:000099B8       sysSubmenu
+ 0002:000099BC       SettingsDlgInProcess
+ 0002:000099C0       ImportText
+ 0002:000099E0       OldVolumeLeftWndProc
+ 0002:000099F0       _end
+
+Program entry point at 0001:00016B08

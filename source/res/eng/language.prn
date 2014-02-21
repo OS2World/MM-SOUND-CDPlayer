@@ -1,0 +1,283 @@
+
+LANGUAGE.H                                       Friday, 10 June 1994 18.06                                       Page 1
+                                         File Created: Friday, 10 June 1994 18.03
+
+     1   
+     2  /* Language specific strings: */
+     3  /* English version */
+     4   
+     5  /* do not change LS_NULL */
+     6  #define LS_NULL                 ""      
+     7   
+     8  /* Mainwindow texts */
+     9   
+    10  #define LS_WM_TITLE             "CD Player"
+    11  #define LS_WM_TIME              "Time"
+    12  #define LS_WM_CD                "CD"
+    13  #define LS_WM_TIMETEMPLATE      "--:--:--"
+    14  #define LS_WM_TRACK             "Track"
+    15  #define LS_WM_CURRENTTRACK      "Current track"
+    16  #define LS_WM_TRACKTEMPLATE     "-"
+    17  #define LS_WM_PROGRAM           "Program"
+    18  #define LS_WM_VOLUME            "Volume"
+    19  #define LS_WM_INDEPENDENT       "Independent"
+    20  #define LS_WM_SWAP              "Swap"
+    21  #define LS_WM_CHANGE_TITLES     "~Title editor..."
+    22  #define LS_WM_PROGRAM_TITLES    "~Program editor..."
+    23  #define LS_WM_INFO              "~Info window..."
+    24  #define LS_WM_OPTIONS           "~Settings..."
+    25  #define LS_WM_TITLES            "Title:"
+    26  #define LS_WM_HELP              "~Help"
+    27   
+    28  #define LS_WM_TRACKUNKNOWN      "-"
+    29  #define LS_WM_TIMEUNKNOWN       "--"
+    30   
+    31  #define LS_WM_TITLESEP          " - "
+    32  #define LS_WM_CDUNTITLED        "unnamed"
+    33  #define LS_WM_CDNONE            "no disc"
+    34  #define LS_WM_CDNOAUDIO         "no audio disc"
+    35  #define LS_WM_NODEVICE          "no CD-ROM drive"
+    36   
+    37  /* Helpwindow texts */
+    38   
+    39  #define LS_WH_TITLE             "CD Player Help"
+    40                       
+    41  /* Aboutwindow texts */
+    42   
+    43  #define LS_WA_ABOUTTITLE        "CD Player"
+    44  #define LS_WA_COMPLETETITLE     "The CD Player"
+    45  #define LS_WA_VERSION           "Version "
+    46  #define LS_WA_COPYRIGHT         "Copyright Michael Bock 1993-94"
+    47  #define LS_WA_UNREGISTERED      "Not registered"
+    48  #define LS_WA_INTERNALTEST      "Internal test version"
+    49  #define LS_WA_INTERNALDEBUG     "Internal debug version"
+    50  #define LS_WA_REGISTEREDFOR     "Registered for "
+    51  #define LS_WA_UNDER             "under "
+    52  #define LS_WA_OK                "OK"
+    53   
+    54  /* Settingswindow texts */
+    55   
+    56  #define LS_WS_TABDISPLAY        "~Time format"
+    57  #define LS_WS_TABANIMATION      "~Animation"
+    58  #define LS_WS_TABSAVE           "~Save"
+    59  #define LS_WS_TABOUTPUT         "~Playback"
+
+LANGUAGE.H                                       Friday, 10 June 1994 18.06                                       Page 2
+                                         File Created: Friday, 10 June 1994 18.03
+
+    60  #define LS_WS_TABOUTPUTDEST     "~Output"
+    61  #define LS_WS_TABDEVICE         "~Device"
+    62  #define LS_WS_PAGEONEOFONE      "Page 1 of 1"
+    63   
+    64  #define LS_WS_MAINTITLE         "CD Player Settings"
+    65  #define LS_WS_TIMEFORMAT        "Time format"
+    66  #define LS_WS_HMS               "H~ours/Minutes/Seconds"
+    67  #define LS_WS_MSF               "~Minutes/Seconds/Frames"
+    68  #define LS_WS_SEP               "Separator:"
+    69  #define LS_WS_ACTFREQ           "Actualisation rate:"
+    70  #define LS_WS_HELP1             "~Help"
+    71   
+    72  #define LS_WS_ANIMATION         "Animation"
+    73  #define LS_WS_PLAYANIMATION     "~Playback animation"
+    74  #define LS_WS_LISTANIMATION     "~List animation"
+    75  #define LS_WS_ANIMATIONRATE     "Animation speed:"
+    76  #define LS_WS_HELP2             "~Help"
+    77   
+    78  #define LS_WS_PLAYBACK          "Playback"
+    79  #define LS_WS_AUTOREPEAT        "Automatic ~repitition"
+    80  #define LS_WS_AUTOSTART         "Automatic ~start"
+    81  #define LS_WS_BACKWARDLIMIT     "Backward threshold:"
+    82  #define LS_WS_HELP3             "~Help"
+    83   
+    84  #define LS_WS_SAVE              "Save"
+    85  #define LS_WS_WINDOWPOS         "~Window position"
+    86  #define LS_WS_VOLUME            "~Volume"
+    87  #define LS_WS_CDPOS             "CD ~Position"
+    88  #define LS_WS_MARKER            "~Markers"
+    89  #define LS_WS_HELP4             "~Help"
+    90   
+    91  #define LS_WS_OUTPUT            "Output"
+    92  #define LS_WS_HEADPHONES        "H~eadphones"
+    93  #define LS_WS_SOUNDCARD         "~Soundcard"
+    94  #define LS_WS_AMPLIFIER         "~External amplifier"
+    95  #define LS_WS_HELP5             "~Help"
+    96   
+    97  #define LS_WS_DEVICE            "Device"
+    98  #define LS_WS_DEVLOCK           "~Lock drive"
+    99  #define LS_WS_DEVNAME           "Name:"
+   100  #define LS_WS_HELP6             "~Help"
+   101   
+   102  /* Titleeditor texts */
+   103   
+   104  #define LS_WT_MAINTITLE         "CD Title Editor"
+   105  #define LS_WT_MAINTITLELIB      "CD Title Editor Library"
+   106   
+   107  #define LS_WT_CDTITLE           "CD titles"
+   108  #define LS_WT_TRACKTITLE        "Track title"
+   109   
+   110  #define LS_WT_LIBRARY           "~Library"
+   111  #define LS_WT_INFO              "~Info"
+   112  #define LS_WT_PROGRAM           "~Program"
+   113  #define LS_WT_IMPORT            "I~mport"
+   114  #define LS_WT_QUIT              "~Quit"
+   115  #define LS_WT_HELP              "~Help"
+   116  #define LS_WT_CHANGE            "~Change"
+   117  #define LS_WT_DELETE            "~Delete"
+   118  #define LS_WT_AREYOUSURE        "Are you sure to delete all the titles of the selected disc?"
+
+LANGUAGE.H                                       Friday, 10 June 1994 18.06                                       Page 3
+                                         File Created: Friday, 10 June 1994 18.03
+
+   119   
+   120   
+   121  /* Programeditor texts */
+   122   
+   123  #define LS_WP_MAINTITLE         "CD Program Editor"
+   124  #define LS_WP_TITLES            "CD"
+   125  #define LS_WP_LENGTHCD          "Length:"
+   126  #define LS_WP_EMPTYTIME         "00:00:00"
+   127  #define LS_WP_TITLESCD          "Titles:"
+   128  #define LS_WP_EMPTYTITLE        "0"
+   129   
+   130  #define LS_WP_INFO              "~Info"
+   131  #define LS_WP_SAVE              "~Save"
+   132  #define LS_WP_QUIT              "~Quit"
+   133  #define LS_WP_START             "At ~begin"
+   134  #define LS_WP_INSERT            "I~nsert"
+   135  #define LS_WP_END               "At ~end"
+   136  #define LS_WP_DEL               "~Delete"
+   137  #define LS_WP_MIX               "~Mix"
+   138  #define LS_WP_REVERSE           "~Reverse"
+   139  #define LS_WP_STANDARD          "S~tandard"
+   140  #define LS_WP_HELP              "~Help"
+   141   
+   142  #define LS_WP_PROGRAM           "Program"
+   143  #define LS_WP_LENGTHPROGRAM     "Length:"
+   144  #define LS_WP_TITLESPROGRAM     "Titles:"
+   145   
+   146  #define LS_WP_WANTTOSAVE        "Do you want to save the changed program?"
+   147   
+   148   
+   149  /* Infowindow texts */
+   150   
+   151  #define LS_WI_MAINTITLE         "CD Info"
+   152  #define LS_WI_CDINFO            "CD information"
+   153  #define LS_WI_CDLENGTH          "Length"
+   154  #define LS_WI_CDSTART           "Start"
+   155  #define LS_WI_CDTRACKS          "Tracks"
+   156  #define LS_WI_UPC               "UPC"
+   157  #define LS_WI_UPCNONE           "<none>"
+   158  #define LS_WI_MMPMID            "MMPM ID"
+   159  #define LS_WI_INTERNALID        "Internal ID"
+   160   
+   161  #define LS_WI_QUIT              "~Quit"
+   162  #define LS_WI_HELP              "~Help"
+   163   
+   164  #define LS_WI_TRACKINFO         "Track information"
+   165  #define LS_WI_TRACKNR           "Track number"
+   166  #define LS_WI_AUDIOTRACK        "Audio track"
+   167  #define LS_WI_CANCOPY           "Copy allowed"
+   168  #define LS_WI_PREEMPHASIS       "Preemphasis"
+   169  #define LS_WI_CHANNELS          "Channels"
+   170  #define LS_WI_TRACKSTART        "Start position"
+   171  #define LS_WI_TRACKLENGTH       "Length"
+   172   
+   173  #define LS_RG_TITLE             "CD Player Registration"
+   174  #define LS_RG_PLEASEENTER       "Please enter your name and your registration code."
+   175  #define LS_RG_NAME              "Name:"
+   176  #define LS_RG_CODE              "Code:"
+   177  #define LS_RG_CANCEL            "Cancel"
+
+LANGUAGE.H                                       Friday, 10 June 1994 18.06                                       Page 4
+                                         File Created: Friday, 10 June 1994 18.03
+
+   178  #define LS_RG_OK                "OK"
+   179   
+   180   
+   181  /* Auxiliary texts */
+   182   
+   183  #define LS_DIV_SHAREWARE "This version of the CD Player is not registered. " \
+   184                          "If you use the CD Player for more than 30 days, you must register." \
+   185                          "How to register is described in the online help under the topic " \
+   186                          "Copyright."
+   187   
+   188   
+   189  #define LS_DIV_REGWRONG "The given registration code is not valid. " \
+   190                          "If you use the CD Player for more than 30 days, you must register." \
+   191                          "How to register is described in the online help under the topic " \
+   192                          "Copyright."
+   193   
+   194   
+   195  #define LS_DIV_REGRIGHT "This version of the CD Player is now registered and " \
+   196                          "must not be passed on in any way. It's also prohibited to " \
+   197                          "pass on the registration code. Doing so will abolish your " \
+   198                          "registration!"
+   199   
+   200   
+   201  /* Errors messages: */
+   202   
+   203  #define LS_ERR_DEVICE               " the device driver reports the following error: "
+   204  #define LS_ERR_APPLKILL             "The CD Player will be terminated!"
+   205  #define LS_ERR_UNKNOWN              "Unknown error!"
+   206  #define LS_ERR_DEVICE_ADVISE        "The position advise cannot be activated."
+   207  #define LS_ERR_DEVICE_CONTENTS      "The disc's table of contents cannot be read."
+   208  #define LS_ERR_DEVICE_EJECT         "The eject command failed."
+   209  #define LS_ERR_DEVICE_MUTEVOLUME    "The sound cannot be turned off or on."
+   210  #define LS_ERR_DEVICE_INFO          "Information about the CD-ROM drive cannot be read."
+   211  #define LS_ERR_DEVICE_OPEN          "The CD-ROM drive isn't responding."
+   212  #define LS_ERR_DEVICE_PAUSE         "The pause command failed."
+   213  #define LS_ERR_DEVICE_PLAY          "The play command failed."
+   214  #define LS_ERR_DEVICE_POSITION      "The current position of the disc cannot be read."
+   215  #define LS_ERR_DEVICE_CONNECTOR     "The output connection isn't available."
+   216  #define LS_ERR_DEVICE_RESUME        "The resume command failed."
+   217  #define LS_ERR_DEVICE_SETVOLUME     "The volume cannot be changed."
+   218  #define LS_ERR_DEVICE_STOP          "The stop command failed."
+   219  #define LS_ERR_HELP_OPEN            "The help file couldn't be opened. " \
+   220                                      "Online help is not available."
+   221  #define LS_ERR_PROFILE_OPEN         "The INI-file couldn't be opened or created."
+   222  #define LS_ERR_PROFILE_WRITE        "The INI-file couldn't be actualised. " \
+   223                                      "Your changes will not be saved."
+   224  #define LS_ERR_WATCHDOG             "The timer couldn't be activated."
+   225  #define LS_ERR_NOAUDIO              "The CD-ROM drive cannot play audio discs."
+   226   
+   227   
+   228  /* Systemmenu: */
+   229   
+   230  #define LS_MS_CONTROL           "~Control"
+   231  #define LS_MS_SETTINGS          "~Windows"
+   232  #define LS_MS_HELP_MENU         "~Help"                        
+   233  #define LS_MS_ABOUTTEXT         "~About the CD Player..."
+   234   
+   235   
+   236  /* Main menu: */
+
+LANGUAGE.H                                       Friday, 10 June 1994 18.06                                       Page 5
+                                         File Created: Friday, 10 June 1994 18.03
+
+   237   
+   238  #define LS_MM_BACKWARD          "~Backward\tStrg-B"
+   239  #define LS_MM_FORWARD           "~Forward\tStrg-F"
+   240  #define LS_MM_PLAY              "~Play\tStrg-P"
+   241  #define LS_MM_PAUSE             "P~ause\tStrg-A"
+   242  #define LS_MM_STOP              "~Stop\tStrg-S"
+   243  #define LS_MM_EJECT             "~Eject\tStrg-E"
+   244  #define LS_MM_REPEAT            "Auto~repeat\tStrg-R"
+   245  #define LS_MM_MUTEOFF           "S~ound off\tStrg-M"
+   246  #define LS_MM_MUTEON            "S~ound on\tStrg-M"
+   247  #define LS_MM_CHANGE_TITLES     "Tit~le editor..."
+   248  #define LS_MM_PROGRAM_TITLES    "Pr~ogram editor..."
+   249  #define LS_MM_OPTIONS           "Se~ttings..."
+   250  #define LS_MM_INFO              "~Info window...\tStrg-I"
+   251  #define LS_MM_HELP_MENU         "~Help"
+   252  #define LS_MM_CLOSE             "~Quit\tAlt+F4"
+   253   
+   254   
+   255  /* Help general submenu */
+   256   
+   257  #define LS_MH_HELPINDEX         "Help ~index"
+   258  #define LS_MH_HELPEXTENDED      "~Extended Help"
+   259  #define LS_MH_HELPONHELP        "Help on ~Help"
+   260  #define LS_MH_HELPKEYS          "Help on ~Keys"
+   261  #define LS_MH_ABOUT             "~About the CD Player..."
+   262   
+

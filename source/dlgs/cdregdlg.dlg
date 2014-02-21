@@ -1,0 +1,22 @@
+DLGINCLUDE 1 "cdregdlg.h"
+
+DLGTEMPLATE ID_DLGREG LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "CD Spieler Registrierung", ID_DLGREG, 115, 106, 289, 80, 
+            FS_SYSMODAL | FS_SCREENALIGN | WS_VISIBLE, FCF_SYSMENU | 
+            FCF_TITLEBAR | FCF_NOBYTEALIGN
+    BEGIN
+        GROUPBOX        "", -1, 4, 22, 281, 58, NOT WS_GROUP
+        LTEXT           "Geben Sie bitte Ihren Namen und Ihren Registrierung"
+                        "scode ein.", -1, 10, 62, 269, 10, DT_VCENTER | NOT 
+                        WS_GROUP
+        LTEXT           "Name:", -1, 10, 44, 35, 10, DT_VCENTER | NOT 
+                        WS_GROUP
+        ENTRYFIELD      "", ID_REGNAMEENTRY, 52, 45, 224, 8, ES_MARGIN
+        LTEXT           "Code:", -1, 10, 26, 35, 10, DT_VCENTER | NOT 
+                        WS_GROUP
+        ENTRYFIELD      "", ID_REGCODEENTRY, 52, 27, 61, 8, ES_MARGIN
+        PUSHBUTTON      "Abbrechen", DID_CANCEL, 180, 4, 50, 14, WS_GROUP
+        DEFPUSHBUTTON   "OK", DID_OK, 235, 4, 50, 14
+    END
+END

@@ -1,0 +1,65 @@
+@echo off
+setlocal
+D:
+CD \C\CDPLAYER
+call common
+
+if %1.==TEST. goto :TEST
+if %1.==DEBUG. goto :DEBUG
+if %1.==SHAREWARE. goto :SHAREWARE
+if %1.==RELEASE. goto :RELEASE
+echo ERROR: No target defined
+goto end
+
+:TEST
+if %2.==DEU. goto TESTMAKE
+if %2.==ENG. goto TESTMAKE
+call %0 TEST DEU
+call %0 TEST ENG
+goto end
+:TESTMAKE
+set LANGUAGE=%2
+cd %ROOT_PATH%\EXE
+nmake /F EXE.MAK TEST=1
+if errorlevel 1 goto end
+cd %ROOT_PATH%\HLPINF
+nmake /F HLPINF.MAK
+if errorlevel 1 goto end
+copy %ROOT_PATH%\EXE\TEST\%LANGUAGE%\CDPLAYER.EXE %ROOT_PATH%\TEST\%LANGUAGE%
+copy %ROOT_PATH%\HLPINF\%LANGUAGE%\CDPLAYER.HLP %ROOT_PATH%\TEST\%LANGUAGE%
+copy %ROOT_PATH%\HLPINF\%LANGUAGE%\CDPLAYER.INF %ROOT_PATH%\TEST\%LANGUAGE%
+goto end
+
+:DEBUG
+if %2.==DEU. goto DEBUGMAKE
+if %2.==ENG. goto DEBUGMAKE
+call %0 DEBUG DEU
+call %0 DEBUG ENG
+goto end
+:DEBUGMAKE
+set LANGUAGE=%2
+cd %ROOT_PATH%\EXE
+nmake /F EXE.MAK DEBUG=1
+if errorlevel 1 goto end
+cd %ROOT_PATH%\HLPINF
+nmake /F HLPINF.MAK
+if errorlevel 1 goto end
+copy %ROOT_PATH%\EXE\DEBUG\%LANGUAGE%\CDPLAYER.EXE %ROOT_PATH%\DEBUG\%LANGUAGE%
+copy %ROOT_PATH%\EXE\DEBUG\CDPLAYER.SYM %ROOT_PATH%\DEBUG\%LANGUAGE%
+copy %ROOT_PATH%\HLPINF\%LANGUAGE%\CDPLAYER.HLP %ROOT_PATH%\DEBUG\%LANGUAGE%
+copy %ROOT_PATH%\HLPINF\%LANGUAGE%\CDPLAYER.INF %ROOT_PATH%\DEBUG\%LANGUAGE%
+goto end
+
+:SHAREWARE
+cd %ROOT_PATH%\PACKAGE
+nmake /F package.mak SHAREWARE=1
+goto end
+
+:RELEASE
+cd %ROOT_PATH%\PACKAGE
+nmake /F package.mak RELEASE=1 USERNAME=%2 REGID=%3
+goto end
+
+:end
+endlocal
+

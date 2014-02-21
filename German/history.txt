@@ -1,0 +1,41 @@
+
+        Versionsspezifische nderungen:
+
+1.01 :  Die nderung des Ger„tenamens fr das CD-ROM Laufwerk ist jetzt
+        implementiert.
+        Der Positionsbalken zeigt nun zus„tzlich die Spurnummern.
+        Mit den Plus- und Minustasten ist eine genaue Positioneinstellung
+        m”glich (siehe Online-Hilfe).
+        Die dritte Maustaste kann zur Steuerung verwendet werden.
+        Die Ausgabe auf Soundkarte ist jetzt m”glich.
+        BUGFIXES:
+        Absturz des Programms beim Aufrufen des Titeleditors mit leerer 
+        INI-Datei.
+        Falsche Markierung von Nicht-Audiospuren im Programmeditor.
+        Extensiver Speicherverbrauch bei stark gefllten Auswahllisten.
+            Anmerkung: Dies ist ein OS/2 Bug
+        Weitere optische Ungereimtheiten.
+
+1.02 :  Zus„tzliche Bitmaps fr unterschiedliche Bildschirmaufl”sungen. 
+        Auáerdem weitere kleine nderungen an den Fenstern, um zu verhindern, 
+        daá der Feldtext bei bestimmten Aufl”sungen nicht in das Feld passt. 
+        Die Aufl”sungen 640x480, 800x600 und 1024x768 werden jetzt explizit 
+        untersttzt.
+        Das Infofenster kann nun im Hauptfenster auch ber einen Knopf
+        gestartet werden.
+        Das Fenster des Programmeditors kann nun in der Gr”áe ver„ndert 
+        werden.
+        Alle Anzeigen im Fenster passen sich der neuen Gr”áe an.
+        Durch eine neue Option kann die momentane Position auf der CD 
+        automatisch gespeichert werden.
+        Es gibt nun eine Version des CD Spielers mit englischer 
+        Benutzeroberfl„che.
+
+1.03 :  Die Umwandlung der Sharewareversion in eine registrierte Version
+        ist nun m”glich.
+
+1.04 :  BUGFIXES:
+        Kleinere Inkonsistenzen in der Lautst„rkeregelung beseitigt.
+        Falsche Meldung bezglich der Ausgabeeinheit bei einigen
+        Rechnerkonfigurationen beseitigt.
+

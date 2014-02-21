@@ -1,0 +1,39 @@
+
+
+    Der CD Spieler fÅr OS/2
+    =======================
+    
+    Copyright (c) Michael Bock 1993-95
+    Alle Rechte vorbehalten.
+
+
+    Installation
+    ============
+
+    Zur Installation verwenden Sie die Kommandodatei 'INSTALL.CMD'.
+    Diese mu· sich im selbem Verzeichnis befinden wie die Åbrigen
+    Dateien des CD Spielers. Rufen Sie 'INSTALL' mit dem Namen des
+    gewÅnschten Zielverzeichnisses auf, z.B.
+
+    INSTALL C:\CDPLAYER
+
+    Alle fÅr die Benutzung des CD Spieler notwendigen Dateien und die
+    Dokumentation werden dann in dieses Verzeichnis kopiert. Au·erdem
+    werden zwei Objekte auf Ihrer ArbeitsoberflÑche erzeugt:
+ 
+    "Der CD Spieler" - 
+        zum Starten des CD Spielers
+
+    "CD Spieler Dokumentation" - 
+        zum Lesen der Dokumentation des CD Spielers
+
+    Sie kînnen diese Objekte dann in einen Ordner Ihrer Wahl 
+    verschieben. 
+
+    ANMERKUNG!
+
+    Wenn Sie registrierter Benutzer des CD Spielers sind, so benutzen
+    sie Ihr altes Verzeichnis als Zielverzeichnis. Die CD Bibliothek
+    wird dadurch nicht Åberschrieben, und die neue Version wird auto-
+    matisch registriert.
+

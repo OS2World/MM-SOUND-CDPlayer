@@ -1,0 +1,39 @@
+
+        Version specific changes
+
+1.01 :  The device name for the CDROM device can be changed.
+        The position slider now shows the track numbers.
+        The <+> and <-> can be used for setting the position (see
+        online help for details).
+        The third mouse button can be used for play control.
+        Output to soundcard is now available.
+        BUGFIXES:
+        Program crash when starting the title editor with empty
+        INI file.
+        Wrong display of non-audio tracks in the program editor
+        Extensive memory usage, when list boxes became heavily filled.
+            Note: this is a OS/2 bug
+        Minor optical changes in display.
+
+1.02 :  Additional bitmaps for different screen display resolutions.
+        Changes in display to prevent text from running over margins 
+        in some display resolutions.
+        The display resolutions 640x480, 800x600 und 1024x768 are now
+        explicitly supported.
+        The info window can be started with a button in the main window.
+        The program editor's window can be changed in size now. All 
+        controls in this window are automatically adjusted to the new
+        size.
+        With a new option, the current position on the cd can be saved
+        automatically.
+        There's now an english version of the CD Player.
+
+1.03 :  Transforming the shareware version to a registrated version is
+        now possible.
+
+1.04 :  BUGFIXES:
+        Minor inconsistences in volume management corrected.
+        Wrong message about the output connector on some systems removed.
+
+1.05 :  CDTOOL.ZIP included in shareware version.
+        English translation of online help completed

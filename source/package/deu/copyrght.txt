@@ -1,0 +1,115 @@
+
+
+    Der CD Spieler fr OS/2
+    =======================
+    
+    Copyright (c) Michael Bock 1993-95
+    Alle Rechte vorbehalten.
+
+
+    Wichtige Hinweise
+    =================
+
+    Da absolute Fehlerfreiheit von Software niemals garantiert werden
+    kann, bernimmt der Autor keinerlei Haftung fr unmittelbare oder
+    Folgesch„den, die durch den Gebrauch dieses Programms entstehen.
+
+    Alle Warenzeichen sind Warenzeichen der jeweiligen Inhaber und werden
+    ohne Rcksicht auf freie Verfgbarkeit verwendet.
+
+
+    Shareware
+    =========
+
+    In diesem Programm steckt viel Arbeit. Wer es nach einer
+    angemessenen Testphase von 30 Tagen weiterhin benutzt, muá
+    deshalb einen Betrag an den Autor entrichten.                   
+
+    SHAREWARE ist KEINE GRATIS-SOFTWARE. Sie k”nnen Shareware allerdings 
+    vor dem Kauf testen!                                      
+
+    Es ist erlaubt, die Shareware-Version (nicht die Vollversion!) dieses
+    Programmes zu kopieren und weiterzugeben, falls
+    - das Programm im Originalzustand kopiert wird
+      (komplett, unver„ndert, nicht installiert)
+    - die Kopiergebhr DM 15,- nicht berschreitet
+
+    Der Autor beh„lt sich rechtliche Schritte bei Verletzung des Copyrights
+    oder der Lizenzbestimmungen vor.
+
+
+    Registrierung
+    =============
+
+    Sollten Sie sich nach der Dauer von 30 Tagen dafr entscheiden, daá
+    Sie den CD Spieler weiterhin benutzen m”chten, so sind Sie verpflichtet,
+    sich registrieren zu lassen.
+
+    In der registrierten Version erscheint der Sharewarehinweis beim Start
+    und Ende des CD Spielers nicht mehr. Ansonsten ist die Shareware-Version 
+    in keiner Weise gegenber der registrierten Version eingeschr„nkt.
+
+    Die Registrierungsgebhr betr„gt DM 30,- incl. MWSt. Die Versandkosten
+    fr die Zusendung des oder der Registrierungscodes (s.u.) per Post
+    betragen DM 10,- incl. MWSt. Die Versandkosten sind bei Mehrfachre-
+    gistrierungen nur einmal zu entrichten. Der Versand der Codes per Email
+    ist kostenlos.
+    Fr Zahlungen aus dem Ausland siehe "REGISTER.TXT".
+
+    Preise fr mehr als 2 Lizenzen oder fr PC-H„ndler, die das
+    Programm Ihren Computern beilegen m”chten, auf Anfrage!
+
+    Die Registrierung geschieht durch Einsenden eines Verrechnungsschecks 
+    oder von Bargeld an den Autor (Schecks werden frhestens am Versandtag
+    eingereicht):
+
+        Michael Bock
+        Weichselstr. 13
+
+        12045 Berlin
+
+    Sollten Sie den Betrag lieber berweisen wollen:
+
+        Michael Bock
+        Konto 0313312
+        Deutsche Bank Darmstadt BLZ 508 700 05
+
+    Der Versand kann (in Ausnahmef„llen) bis zu 6 Wochen dauern, bei Scheck-
+    oder Barzahlung fallen die Banklaufzeiten weg. Aus dem Ausland bitte nur
+    D-Mark-Euroschecks oder Bargeld (sonst Bankspesen von ca. 10,- bis 20,-
+    hinzufgen).
+
+    Verwenden Sie bitte das beigefgte Formular "REGISTER.TXT", das
+    Sie ausdrucken und verschicken k”nnen.
+
+    Falls die Bezahlung per Bankberweisung durchgefhrt wird, kann die
+    Bestellung durch Email an eine der folgenden Adressen erfolgen.
+
+    Internet: bock001@ibm.net
+    Compuserve: 100477,1335
+    Fidonet: 2:2410/601.46
+
+    Die registrierte Version wird nicht in Form von Disketten verschickt.
+    Anstelle dessen erhalten Sie einen Registrierungscode und eine 
+    Beschreibung, wie sie die Sharewareversion in eine registrierte Version
+    umwandeln k”nnen. Der Registrierungscode kann ihnen per Post oder per
+    Email zugeschickt werden. Fr den Versand per Post werden zus„tzliche
+    Versandkosten berechnet (s.o.).
+
+
+    Updates
+    =======
+
+    Updates sind fr registrierte Benutzer bis auf weiteres kostenlos, 
+    wenn das Update via Modem erfolgen kann. Andere registrierte Benutzer 
+    zahlen lediglich die Gebhr ihres Shareware-H„ndlers (i.d.R. 5 DM).
+
+    Falls das Programm stark erweitert werden sollte, kann der Update
+    DM 10 bis DM 20 kosten.
+
+    12.3.1995
+
+
+
+
+

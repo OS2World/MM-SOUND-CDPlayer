@@ -1,0 +1,360 @@
+
+Lieber
+
+hier nun endlich das lange erwartete Tool zum extrahieren und importieren
+von CD Titeln aus der CD Bibliothek des CD Spielers. Da das Tool in Form 
+von zwei Rexxdateien und einer beschreibenden Textdatei vorliegt, habe ich
+beschlossen, es allen registrierten Benutzern des CD Spielers als Mail zu 
+schicken. Um die Originaldateien wiederherzustellen, ist es nur nîtig die 
+Mail als Textdatei zu exportieren, die entsprechende Textausschnitte auszu-
+schneiden und unter dem entsprechenden Namen abzuspeichern. Wem das zu kom-
+pliziert ist, kann natÅrlich auch das Originalpaket unter dem Namen 
+CDLIB.ZIP bei der Schummeltuete (2:2433/20) oder der TERRA BBS (2:2410/121) 
+requesten.
+
+Viel Spa· damit,
+Michael
+
+Datei README.TXT :
+-----Nach dieser Zeile ausschneiden----------------------------------------
+
+
+    CDXTRACT & CDMERGE - Version 1.00 - (C) Michael Bock 1994
+
+    Der Gebrauch dieser Programme ist nur in Verbindung mit dem "CD Spieler
+    fÅr OS/2" zulÑssig. Alle EinschrÑnkungen bezÅglich des Gebrauchs der nicht
+    registrierten Version des "CD Spielers fÅr OS/2" betreffen auch diese Pro-
+    gramme.
+    Es wird keine GewÑhrleistung fÅr die FunktionsfÑhigkeit und Fehlerfreiheit
+    der Programme Åbernommen.
+
+    öberblick
+
+    Da die CDPLAYER.INI nicht nur die CD Bibliothek, sondern auch alle anderen
+    Einstellungen sowie die (hoffentlich vorhandene :-) Registrierungsinforma-
+    tion enthÑlt, kann diese Datei normalerweise nicht verwendet werden um die
+    eigene CD Bibliothek mit anderen Benutzern des CD Spielers auszutauschen.
+    Mit den beiden Rexx-Programmen CDXTRACT und CDMERGE ist es nun trotzdem
+    mîglich, die eigene CD Bibliothek weiterzugeben und fremde CD Bibliotheken
+    einzubinden.
+    Dies ist allerdings nur eine vorlÑufige Lîsung, da die nÑchste Version des
+    CD Spielers diese Mîglichkeit direkt bieten wird. Mit CDXTRACT erstellte
+    CD Bibliotheken kînnen aber auch dann weiterhin benutzt werden.
+    WICHTIG! Zur Benutzung der beiden Programme mu· die REXX-UnterstÅtzung von 
+    OS/2 aktiviert sein.
+
+    Installation
+
+    Kopieren sie einfach die beiden Dateien CDXTRACT.CMD und CDMERGE.CMD in 
+    das Verzeichnis ihres CD Spielers.
+
+    CDXTRACT
+
+    Mit CDXTRACT kann die CD Bibliothek aus der Datei CDPLAYER.INI extrahiert
+    werden. Dabei wird eine neue Datei erstellt, die nur die CD Bibliothek
+    enthÑlt, nicht aber den Åbrigen Inhalt der CDPLAYER.INI Datei.
+    WARNUNG! Eine bereits vorhandene Datei wird dabei Åberschrieben.
+
+    Programmaufruf:
+
+    CDXTRACT <Extrahierte Datei> [Inidatei]
+    Extrahierte Datei: Name der Datei, die die extrahierte CD Bibliothek
+        aufnimmt. Dieser Parameter mu· angegeben werden.
+        WARNUNG! Eine bereits vorhandene Datei dieses Namens wird vor der
+        AusfÅhrung des Programms gelîscht.
+    Inidatei: Name der Inidatei des CD Spielers. Wenn dieser Parameter
+        nicht angegeben wird, nimmt CDXTRACT die Datei CDPLAYER.INI im
+        momentanen Verzeichnis.
+
+    Tip: leider sind die notwendigen Rexxroutinen ziemlich langsam. Um den
+    Vorgang zu beschleunigen, empfiehlt es sich, die Zieldatei auf einer RAM-
+    Disk anzulegen.
+
+    CDMERGE
+
+    Mit CDMERGE kann eine mit CDXTRACT erstellte CD Bibliothek in die Datei
+    CDPLAYER.INI des CD Spielers Åbernommen werden.
+    Es kann vorkommen das einzelne CDs der neuen CD Bibliothek sich auch schon
+    in ihrer CD Bibliothek befinden. In diesem Fall fragt CDMERGE nach, ob sie
+    den CD Eintrag Åberschreiben wollen. Wenn ja, werden alle in der externen
+    CD Bibliothek vorhandenen Titel und Infos Åbernommen. EintrÑge, die in der
+    externen CD Bibliothek nicht vorhanden sind, sich aber in ihrer CD Biblio-
+    thek befinden, werden nicht(!) Åberschrieben. Wenn die externe Bibliothek
+    z.B. nur die Titel 1-6 definiert, aber nicht die Titel 7-9 und Åberhaupt
+    keine zus. Informationen, werden ihre Titel 7-9 und ihre zus. Informatio-
+    nen beibehalten. Das gleiche gilt fÅr die gespeicherte Position und das
+    gespeicherte Programm.
+
+    Programmaufruf:
+
+    CDMERGE <Extrahierte Datei> [Inidatei]
+    Extrahierte Datei: Name der Datei, die die extrahierte CD Bibliothek
+        enthÑlt. Dieser Parameter mu· angegeben werden.
+    Inidatei: Name der Inidatei des CD Spielers. Wenn dieser Parameter
+        nicht angegeben wird, nimmt CDMERGE die Datei CDPLAYER.INI im
+        momentanen Verzeichnis.
+
+
+
+7.6.94
+-----Bis vor diese Zeile ausschneiden--------------------------------------
+
+Datei CDXTRACT.CMD :
+-----Nach dieser Zeile ausschneiden----------------------------------------
+/* CDXTRACT - Version 1.00 - (C) Michael Bock 1994
+
+   Extrahiert die CD Bibliothek aus der Datei CDPLAYER.INI in eine eigene
+   Datei.
+
+   Der Gebrauch dieses Programms ist nur in Verbindung mit dem "CD Spieler
+   fÅr OS/2" zulÑssig.  Alle EinschrÑnkungen bezÅglich des Gebrauchs der nicht
+   registrierten Version des "CD Spielers fÅr OS/2" betreffen auch dieses Pro-
+   gramm.
+   Es wird keine GewÑhrleistung fÅr die FunktionsfÑhigkeit und Fehlerfreiheit
+   des Programmes Åbernommen.
+
+   Benutzung:
+   CDXTRACT <Extrahierte Datei> [Inidatei]
+   Extrahierte Datei: Name der Datei, die die extrahierte CD Bibliothek
+        aufnimmt. Dieser Parameter mu· angegeben werden.
+        WARNUNG! Eine bereits vorhandene Datei dieses Namens wird vor der
+        AusfÅhrung des Programms gelîscht.
+   Inidatei: Name der Inidatei des CD Spielers. Wenn dieser Parameter
+        nicht angegeben wird, nimmt CDXTRACT die Datei CDPLAYER.INI im
+        momentanen Verzeichnis.
+*/
+
+call RxFuncAdd 'SysLoadFuncs', 'RexxUtil', 'SysLoadFuncs'
+call SysLoadFuncs
+
+signal on halt name UserBreak
+parse arg CDLibName CDIniName
+
+if CDLibName = '' then
+  signal Usage
+
+if CDIniName = '' then
+  CDIniName = 'CDPLAYER.INI'
+
+Res = SysIni(CDIniName, 'ALL:', CDAppl)
+if Res = 'ERROR:' then
+  signal ReadError
+if CDAppl.0 = 0 then
+  signal ReadError
+
+Res = SysFileDelete(CDLibName)
+if Res > 2 then
+  signal WriteError
+
+Res = SysIni(CDLibName, 'CDLibrary', 'Version', '1')
+if Res = 'ERROR:' then
+  signal WriteError
+
+Say 'Extrahiere' CDIniName '->' CDLibName
+Say
+
+do i=1 to CDAppl.0
+  Res = SysIni(CDIniName, CDAppl.i, 'Contents')
+  if Res \= 'ERROR:' then
+  do
+    Title = SysIni(CDIniName, CDAppl.i, 'CDTitle')
+    if Title = 'ERROR:' then
+      Title = 'ohne Namen'
+    else
+      Title = Left(Title, Length(Title)-1)
+    say 'Extrahiere' CDAppl.i '-' Left(Title, 50, ' ')
+    Res = SysIni(CDIniName, CDAppl.i, 'ALL:', CDContents)
+    if Res = 'ERROR:' then
+      signal ReadError
+    do j=1 to CDContents.0
+      say '-' CDContents.j
+      CDValue = SysIni(CDIniName, CDAppl.i, CDContents.j)
+      if CDValue = 'ERROR:' then
+        signal ReadError
+      Res = SysIni(CDLibName, CDAppl.i, CDContents.j, CDValue)
+      if Res = 'ERROR:' then
+        signal WriteError
+    end
+  end
+end
+
+exit 0
+
+UserBreak:
+say 'FEHLER:'
+say 'Das Programm wurde mit Control-C unterbrochen. Die zuletzt bearbeitete'
+say 'CD wurde mîglichweise nicht vollstÑndig extrahiert. Wiederholen Sie die'
+say 'Extrahierung im Zweifelsfall.'
+exit 2
+
+Usage:
+say 'Programmaufruf:'
+say 'CDXTRACT <Extrahierte Datei> [Inidatei]'
+say 'Extrahierte Datei: Name der Datei, die die extrahierte CD Bibliothek'
+say '    aufnimmt. Dieser Parameter mu· angegeben werden.'
+say '    WARNUNG! Eine bereits vorhandene Datei dieses Namens wird vor der'
+say '    AusfÅhrung des Programms gelîscht.'
+say 'Inidatei: Name der Inidatei des CD Spielers. Wenn dieser Parameter'
+say '    nicht angegeben wird, nimmt CDXTRACT die Datei CDPLAYER.INI im'
+say '    momentanen Verzeichnis.'
+exit 1
+ 
+ReadError:
+say 'FEHLER:'
+say 'Die Datei' CDIniName 'kann nicht gelesen werden'
+say 'Entweder die Datei ist nicht vorhanden, oder es handelt sich nicht um'
+say 'eine gÅltige CD Bibliothek.'
+exit 1
+
+WriteError:
+say 'FEHLER:'
+say 'Die Datei' CDLibName 'kann nicht erstellt werden oder eine bereits'
+say 'vorhandene Datei dieses Namens konnte nicht gelîscht werden.'
+exit 1
+-----Bis vor diese Zeile ausschneiden--------------------------------------
+
+Datei CDMERGE.CMD :
+-----Nach dieser Zeile ausschneiden----------------------------------------
+/* CDMERGE - Version 1.00 - (C) Michael Bock 1994
+
+   FÅgt die CD Bibliothek aus einer mit CDXTRACT erstellten Datei in die
+   CDPLAYER.INI Datei ein.
+
+   Der Gebrauch dieses Programms ist nur in Verbindung mit dem "CD Spieler
+   fÅr OS/2" zulÑssig.  Alle EinschrÑnkungen bezÅglich des Gebrauchs der nicht
+   registrierten Version des "CD Spielers fÅr OS/2" betreffen auch dieses Pro-
+   gramm. 
+   Es wird keine GewÑhrleistung fÅr die FunktionsfÑhigkeit und Fehlerfreiheit 
+   des Programmes Åbernommen.
+
+   Benutzung:
+   CDMERGE <Extrahierte Datei> [Inidatei]
+   Extrahierte Datei: Name der Datei, die die extrahierte CD Bibliothek
+        enthÑlt. Dieser Parameter mu· angegeben werden.
+   Inidatei: Name der Inidatei des CD Spielers. Wenn dieser Parameter
+        nicht angegeben wird, nimmt CDMERGE die Datei CDPLAYER.INI im
+        momentanen Verzeichnis.
+*/
+
+call RxFuncAdd 'SysLoadFuncs', 'RexxUtil', 'SysLoadFuncs'
+call SysLoadFuncs
+
+signal on halt name UserBreak
+parse arg CDLibName CDIniName
+
+if CDLibName = '' then
+  signal Usage
+
+if CDIniName = '' then
+  CDIniName = 'CDPLAYER.INI'
+
+Res = SysIni(CDLibName, 'CDLibrary', 'Version')
+if Res \= 1 then
+  signal ReadError
+
+Res = SysIni(CDLibName, 'ALL:', CDAppl)
+if Res = 'ERROR:' then
+  signal ReadError
+
+Res = SysIni(CDIniName, 'ALL:', CDOldAppl)
+if Res = 'ERROR:' then
+  signal WriteError
+
+Say 'Importiere' CDLibName '->' CDIniName
+Say
+
+do i=1 to CDAppl.0
+  Cont = SysIni(CDLibName, CDAppl.i, 'Contents')
+  if Cont \= 'ERROR:' then
+  do
+    Title = SysIni(CDLibName, CDAppl.i, 'CDTitle')
+    if Title = 'ERROR:' then
+      Title = 'ohne Namen'
+    else
+      Title = Left(Title, Length(Title)-1)
+    say 'Importiere' CDAppl.i '-' Left(Title, 50, ' ')
+
+    Skip = 0
+    FixedIndex = 0
+    MaxIndex = 1
+    do j=1 to CDOldAppl.0
+      if Left(CDAppl.i, 10) = Left(CDOldAppl.j, 10) then
+      do
+        OldCont = SysIni(CDIniName, CDOldAppl.j, 'Contents')
+        if (OldCont \= 'ERROR:') & (Length(Cont) = Length(OldCont)) & (SubStr(Cont, 57) = SubStr(OldCont, 57)) then
+        do
+          say 'Die momentane CD befindet sich schon in Ihrer CD Bibliothek'
+          say 'öberschreiben (J/N) ?'
+          Key = ' '
+          do while (Key \= 'J') & (Key \= 'j') & (Key \= 'N') & (Key \= 'n')
+            call Beep 440, 250
+            Key = SysGetKey('NOECHO')
+          end
+          if (Key = 'N') | (Key = 'n') then
+            Skip = 1
+          else
+            FixedIndex = SubStr(CDOldAppl.j, 11)
+        end
+        else
+        do
+          MaxIndex = Max(MaxIndex, SubStr(CDOldAppl.j, 11) + 1)
+        end 
+      end
+    end
+
+    if FixedIndex \= 0 then
+      MaxIndex = FixedIndex
+
+    if \ Skip then
+    do
+      CurrAppl = Left(CDAppl.i, 10)''MaxIndex
+      Res = SysIni(CDLibName, CDAppl.i, 'ALL:', CDContents)
+      if Res = 'ERROR:' then
+        signal ReadError
+      do j=1 to CDContents.0
+        say '-' CDContents.j
+        CDValue = SysIni(CDLibName, CDAppl.i, CDContents.j)
+        if CDValue = 'ERROR:' then
+          signal ReadError
+        Res = SysIni(CDIniName, CurrAppl, CDContents.j, CDValue)
+        if Res = 'ERROR:' then
+          signal WriteError
+      end
+    end
+  end
+end
+exit 0
+
+UserBreak:
+say 'FEHLER:'
+say 'Das Programm wurde mit Control-C unterbrochen. Die zuletzt bearbeitete'
+say 'CD wurde mîglichweise nicht vollstÑndig Åbertragen. Wiederholen Sie den'
+say 'Vorgang im Zweifelsfall.'
+exit 2
+
+Usage:
+say 'Programmaufruf:'
+say 'CDMERGE <Extrahierte Datei> [Inidatei]'
+say 'Extrahierte Datei: Name der Datei, die die extrahierte CD Bibliothek'
+say '    enthÑlt. Dieser Parameter mu· angegeben werden.'
+say 'Inidatei: Name der Inidatei des CD Spielers. Wenn dieser Parameter'
+say '    nicht angegeben wird, nimmt CDMERGE die Datei CDPLAYER.INI im'
+say '    momentanen Verzeichnis.'
+exit 1
+ 
+ReadError:
+say 'FEHLER:'
+say 'Die Datei' CDLibName 'kann nicht gelesen werden'
+say 'Entweder die Datei ist nicht vorhanden, oder es handelt sich nicht um'
+say 'eine gÅltige CD Bibliothek.'
+exit 1
+
+WriteError:
+say 'FEHLER:'
+say 'Die Datei' CDIniName 'kann nicht gefunden werden oder die Datei konnte'
+say 'nicht beschrieben werden.'
+exit 1
+-----Bis vor diese Zeile ausschneiden--------------------------------------
+
+
+

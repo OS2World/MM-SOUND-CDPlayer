@@ -1,0 +1,39 @@
+
+
+    The CD Player for OS/2
+    ======================
+    
+    Copyright (c) Michael Bock 1993-95
+    All rights reserved.
+
+
+    Installation
+    ============
+
+    For installation, you can use the rexx script 'INSTALL.CMD'.
+    The file must be in the same directory as the other files
+    of the CD player. Start 'INSTALL' with name of the target
+    directory as argument, for example:
+
+    INSTALL C:\CDPLAYER
+
+    All necessary files for using the CD player and the documentation 
+    are copied to this directory. In addition, two objects are
+    created on your workplace shell:
+ 
+    "The CD Player" -
+        to start the CD Player
+
+    "CD Player Documentation" -
+        to read the documentation of the CD Player
+
+    You can move this objects to any folder you like.
+
+    NOTE!
+
+    If you are a registered user of the CD Player, please use your 
+    previous directory as the target directory. Your CD library will
+    not be overwritten, and the new version will become automatically
+    registered.
+
+

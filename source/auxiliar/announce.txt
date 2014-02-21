@@ -1,0 +1,34 @@
+
+Der CD Spieler
+
+Ein universelles Programm zum Abspielen von Audio-CDs unter OS/2. 
+
+Beinhaltet:
+
+- ein kompaktes Display mit allen blichen M”glichkeiten zur Steuerung 
+  eines CD Spielers sowie zus„tzlich Restzeitanzeige, Programmanzeige,
+  Lautst„rkesteuerung, Titelanzeige und direkte Positionssteuerung.
+
+- einen flexiblen Titeleditor zum Verwalten aller Titel einer CD Sammlung.
+  Auch nicht eingelegte CD's k”nnen bearbeitet werden.
+
+- einen Programmeditor zum freien Einstellen der Titelreihenfolge beim
+  Abspielen der CD. Das Programm wird mit den Titeln einer CD gespeichert
+  und wird beim erneuten Einlegen der CD automatisch eingestellt.
+
+- ein Notizbuch mit Einstellungen, die Aussehen und Verhalten des CD Spielers
+  auf vielf„ltige Weise beeinflussen.
+
+- ausfhrliche Onlinehilfe zu allen M”glichkeiten des CD Spielers.
+
+Ben”tigt:
+
+- OS/2 2.1 oder OS/2 2.0 mit Multimediaerweiterung.
+
+- Ein audiof„higes CD-ROM Laufwerk, daá von der Multimediaerweiterung
+  angesteuert werden kann.
+
+Das Programm ist Shareware. Die Testversion ist aber gegenber der
+registrierten Version nicht eingeschr„nkt.
+
+

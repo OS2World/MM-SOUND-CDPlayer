@@ -1,0 +1,58 @@
+;------------------------------------------------------------------------
+;| CDPLAYER.DEF FILE
+;|
+;| Copyright (C) 1993 Michael Bock
+;+------------------------------------------------------------------------
+
+NAME            CDPLAYER WINDOWAPI
+
+DESCRIPTION     'CD-Player Application for MMPM/2 (C) 1994 Michael Bock'
+HEAPSIZE        60000
+STACKSIZE       40000
+EXPORTS         MainDlgProc                     @1
+                TextCDWndProc                   @2
+                CDTimePlayedWndProc             @3
+                CDTimeLeftWndProc               @4
+                TextTrackWndProc                @5
+                TrackTimePlayedWndProc          @6
+                TrackTimeLeftWndProc            @7
+                TextCurrTrackWndProc            @8
+                CurrTrackWndProc                @9
+                TrackSetWndProc                 @10
+                TrackSetScrollBarWndProc        @11
+                VolumeLeftWndProc               @12
+                VolumeRightWndProc              @13
+                ChannelIndependentWndProc       @14
+                ChannelSwapWndProc              @15
+                ChangeTitlesWndProc             @16
+                ProgramTitlesWndProc            @17
+                InfoWindowWndProc               @18
+                OptionsWndProc                  @19
+                TextTitleWndProc                @20
+                TitleSelectWndProc              @21
+                TimeSliderWndProc               @22
+                MuteWndProc                     @23
+                ForwardWndProc                  @24
+                BackwardWndProc                 @25
+                PlayWndProc                     @26
+                PauseWndProc                    @27
+                StopWndProc                     @28
+                EjectWndProc                    @29
+                RepeatWndProc                   @30
+                HelpWndProc                     @31
+                AboutDlgProc                    @32
+                SettingsDlgProc                 @33
+                TimeSettingsDlgProc             @34
+                DisplaySettingsDlgProc          @35
+                PlaySettingsDlgProc             @36
+                SaveSettingsDlgProc             @37
+                OutputSettingsDlgProc           @38
+                HardwareSettingsDlgProc         @39
+                TitleEditorDlgProc              @40
+                ProgramEditorDlgProc            @41
+                InfoDlgProc                     @42
+                TEEntryTrackWndProc             @43
+                FGBoxProc                       @44
+                BGBoxProc                       @45
+                                                 
+

@@ -1,0 +1,5 @@
+Export/Import der Titelbibliothek
+
+Aufruf der zus„tzlichen Informationen zu Spur oder CD ber eine Taste im Hauptfenster.
+
+

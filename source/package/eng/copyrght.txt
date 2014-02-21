@@ -1,0 +1,82 @@
+
+
+    The CD Player for OS/2
+    ======================
+    
+    Copyright (c) Michael Bock 1993-95
+    All rights reserved
+
+
+    Important notice
+    ================
+
+    The author disclaims all warranties as to this software, whether
+    expressed or implied, including without limitation any implied warranties
+    of merchantability, fitness for a particular purpose, functionality,
+    data integrity or protection, in so far as permitted by applicable
+    legislation.
+
+    All trademarks are property of their respective owners and appear for
+    identification purposes only.
+
+
+    Shareware
+    =========
+
+    Writing this program has taken lots of work. If you continue
+    using it after a reasonable trial period of 30 days, you have
+    to pay a small fee to the author.
+                                                                
+    SHAREWARE is NOT FREE SOFTWARE. You can, however, test shareware
+    before purchasing it.
+    
+    You are encouraged to copy and pass on the unregistered shareware
+    version of this program, if
+    - the program is distributed in its original form
+      (complete, unmodified, uninstalled)
+    - the distribution fee does not exceed the equivalent of DM 15.-.
+
+
+    Registration
+    ============
+
+    If you want to continue using the CD Player after 30 days, you have to
+    register.
+
+    The registrated version contains no shareware reference. There are no
+    other limitations in the shareware version.
+
+    See "REGISTER.TXT" for the registration fee valid for your
+    country (DM 30.- to DM 50.- depending on the country). Additional fee
+    is required for postal shipment. Shipment per email or compuserve mail
+    is free of charges.
+
+    Inquire for more than 2 licenses or for hardware bundling!
+
+    Send DM Eurocheques or bank notes to the following address:
+
+        Michael Bock
+        Weichselstr. 13
+
+        12045 Berlin
+        Germany
+
+    Please allow a maximum of 6 weeks for delivery.
+
+    Please use the form "REGISTER.TXT" included with this program.    ³
+
+    The CD Player is not shipped on disks. Instead, you get an registration
+    key and a description how to make your shareware-version a registrated
+    version.
+
+    Upgrades
+    ========
+
+    If the user has a modem, upgrades are free. Other registered users
+    only have to pay the fee of their shareware vendor (usually DM 5).
+
+    However, upgrades will cost DM 10 to DM 20, if there are major 
+    enhancements to the program.
+
+    03-10-1995
+

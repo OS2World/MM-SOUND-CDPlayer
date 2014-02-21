@@ -1,0 +1,4 @@
+The CD Player for OS/2
+Copyright (c) Michael Bock 1993-95
+All Rights Reserved.
+
